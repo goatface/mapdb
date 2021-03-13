@@ -1,4 +1,4 @@
 # mapdb
 Kaldonis-moderated mapdb only touched by bona fide map editors.
 
-More map updates coming soon!
+Latest release from March 9th, ~10:30 PM EST
