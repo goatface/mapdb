@@ -1,0 +1,19 @@
+diffing old map-1615936601.json to new map-1616002315.dat
+--------------------------------------------------
+28934 [Bejeweled Booty]
+wayto: {"28933"=>"go beads", "29125"=>"go curtain"} is now {"28933"=>"go beads"}
+  removed wayto:
+    29125: [Bejeweled Booty] => "go curtain"
+timeto: {"28933"=>0.2, "29125"=>0.2} is now {"28933"=>0.2}
+  removed timeto:
+    29125: [Bejeweled Booty] => 0.2
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29610
+current map size: 29610
+1 rooms with changes found.
+0 new rooms
+0 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
