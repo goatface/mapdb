@@ -1,0 +1,98 @@
+diffing old map-1616002315.dat to new map-1616125555.dat
+--------------------------------------------------
+13245 [Tower]
+wayto: {"290"=>"climb ladder"} is now {"290"=>"climb ladder", "28699"=>"go trapdoor"}
+  added wayto:
+    28699: [Wehnimer's, Burrow Way] => "go trapdoor"
+timeto: {"290"=>0.2} is now {"290"=>0.2, "28699"=>0.2, "291"=>0.4}
+  added timeto:
+    28699: [Wehnimer's, Burrow Way] => 0.2
+    291: [Wehnimer's, West Ring Rd.] => 0.4
+  added tags:   ["peer trapdoor =~ /Clumps of dirt make the travel here uneven and bumpy/"]
+  image: 'wl-wehnimers-1264234799.png' is now 'wl-burrow_way-1616121316.png'
+  image_coords: '[48, 737, 83, 772]' is now '[507, 437, 544, 473]'
+--------------------------------------------------
+20628 [Wehnimer's, Burrow Way]
+wayto: {"20624"=>"west", "22461"=>"northeast"} is now {"20624"=>"west", "20629"=>"northeast"}
+  added wayto:
+    20629: [Wehnimer's, Burrow Way] => "northeast"
+  removed wayto:
+    22461: [Wehnimer's, Burrow Way] => "northeast"
+timeto: {"20624"=>0.2, "22461"=>0.2} is now {"20624"=>0.2, "20629"=>0.2}
+  added timeto:
+    20629: [Wehnimer's, Burrow Way] => 0.2
+  removed timeto:
+    22461: [Wehnimer's, Burrow Way] => 0.2
+  image: 'wl-burrow_way-1360361110.png' is now 'wl-burrow_way-1616121316.png'
+  image_coords: '[881, 235, 907, 261]' is now '[1024, 245, 1060, 280]'
+--------------------------------------------------
+20629 [Wehnimer's, Burrow Way]
+  added description:   ["A giant spider web dominates a corner of the tunnel, its silk glistening against the light from nearby torches.  Trapped within the spider's snare, is a humanoid form."]
+  image: 'wl-burrow_way-1360361110.png' is now 'wl-burrow_way-1616121316.png'
+  image_coords: '[935, 181, 961, 206]' is now '[1082, 183, 1120, 221]'
+--------------------------------------------------
+20630 [Wehnimer's, Burrow Way]
+wayto: {"20631"=>"northeast", "22461"=>"north"} is now {"20631"=>"northeast", "20629"=>"north"}
+  added wayto:
+    20629: [Wehnimer's, Burrow Way] => "north"
+  removed wayto:
+    22461: [Wehnimer's, Burrow Way] => "north"
+timeto: {"20631"=>0.2, "22461"=>0.2} is now {"20631"=>0.2, "20629"=>0.2}
+  added timeto:
+    20629: [Wehnimer's, Burrow Way] => 0.2
+  removed timeto:
+    22461: [Wehnimer's, Burrow Way] => 0.2
+  image: 'wl-burrow_way-1360361110.png' is now 'wl-burrow_way-1616121316.png'
+  image_coords: '[935, 234, 961, 260]' is now '[1083, 244, 1121, 280]'
+--------------------------------------------------
+22461 [Wehnimer's, Burrow Way] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[935, 181, 962, 206]
+@image="wl-burrow_way-1360361110.png"
+@timeto={"20628"=>0.2, "20630"=>0.2}
+@wayto={"20628"=>"southwest", "20630"=>"south"}
+@terrain=nil
+@climate=nil
+@location="the town of Wehnimer's Landing"
+@paths=["Obvious exits: south, southwest"]
+@description=["A giant spider web dominates a corner of the tunnel, its silk glistening against the light from nearby torches.  Trapped within the spider's snare, is a humanoid form."]
+@title=["[Wehnimer's, Burrow Way]"]
+@id=22461
+--------------------------------------------------
+28700 [Wehnimer's, Burrow Way]
+wayto: {"28699"=>"south"} is now {"28699"=>"south", "29559"=>"go ladder"}
+  added wayto:
+    29559: [Tower] => "go ladder"
+timeto: {"28699"=>0.2} is now {"28699"=>0.2, "29559"=>0.2}
+  added timeto:
+    29559: [Tower] => 0.2
+  image: '' is now 'wl-burrow_way-1616121316.png'
+  image_coords: '' is now '[507, 292, 544, 328]'
+--------------------------------------------------
+29559 [Tower] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[429, 436, 466, 473]
+@image="wl-burrow_way-1616121316.png"
+@timeto={"28700"=>0.2, "291"=>0.4}
+@wayto={"28700"=>"go trapdoor", "291"=>"go ladder"}
+@terrain=nil
+@climate=nil
+@location="Wehnimer's Landing"
+@paths=["Obvious exits: none"]
+@description=["A rough angled ceiling of thin iron plates arcs overhead, supported by thick poles of iron that continue down to the ground that is far below.  Planks of wood make up the sturdy albeit rough floor, and a few small notches are cut into the dark metal walls.  The countryside expands out beneath you, its terrain easily visible from this high vantage point, the moonlight gently illuminating the interior of the tower."]
+@title=["[Tower]"]
+@id=29559
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29610
+current map size: 29610
+5 rooms with changes found.
+1 new rooms
+1 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
