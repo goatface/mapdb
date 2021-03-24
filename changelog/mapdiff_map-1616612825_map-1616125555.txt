@@ -1,0 +1,17 @@
+diffing old map-1616125555.dat to new map-1616612825.json
+--------------------------------------------------
+2834 [Northern Slopes, Snowy Drifts]
+wayto: {"2835"=>StringProc.new("fput 'search'\nmove 'go path'"), "2826"=>"east"} is now {"2835"=>StringProc.new("fput 'search'\nmove 'go snowy path'"), "2826"=>"east"}
+--------------------------------------------------
+2835 [Northern Slopes, Snowy Drifts]
+wayto: {"2834"=>"go path", "2836"=>"climb slope"} is now {"2834"=>"go snowy path", "2836"=>"climb slope"}
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29610
+current map size: 29610
+2 rooms with changes found.
+0 new rooms
+0 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
