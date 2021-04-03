@@ -1,0 +1,292 @@
+diffing old map-1616612825.json to new map-1617471705.json
+--------------------------------------------------
+601 [Shimmarglin Inn, Fountain Room]
+  added tags:   ["supernode"]
+--------------------------------------------------
+638 [Ta'Illistim, BriarStone Court]
+  added tags:   ["supernode"]
+--------------------------------------------------
+728 [Ta'Illistim, Glamesine Var]
+  added tags:   ["supernode", "node"]
+--------------------------------------------------
+2429 [Clovertooth Hall, Saferoom]
+  added tags:   ["supernode", "node"]
+--------------------------------------------------
+2710 [Top of the World, Aenatumgana]
+wayto: {"2709"=>"climb steps", "2711"=>"south", "2712"=>"southeast", "2713"=>"go path"} is now {"2709"=>"climb steps", "2711"=>"south", "2712"=>"southeast", "2713"=>"go narrow path"}
+--------------------------------------------------
+2713 [Top of the World, Aenatumgana]
+wayto: {"2710"=>"go path", "2714"=>"go large crack"} is now {"2710"=>"go narrow path", "2714"=>"go large crack"}
+--------------------------------------------------
+3242 [Ice Plains, Hill Base]
+wayto: {"3241"=>"east", "3243"=>"go path"} is now {"3241"=>"east", "3243"=>"go snow-covered path"}
+--------------------------------------------------
+3243 [A Frozen Battlefield]
+wayto: {"3244"=>"northwest", "3250"=>"northeast", "3242"=>"go path"} is now {"3244"=>"northwest", "3250"=>"northeast", "3242"=>"go snow-covered path"}
+--------------------------------------------------
+3544 [Ta'Vaalor, Victory Court]
+  added tags:   ["supernode"]
+--------------------------------------------------
+4639 [Cysaegir, Citadel Bailey]
+wayto: {"4686"=>"go bank", "4687"=>"go hostelry", "4638"=>"go archway"} is now {"4686"=>"go bank", "4687"=>"go hostelry", "4638"=>"go archway", "22461"=>"go gate"}
+  added wayto:
+    22461: [Lyra-Flyr Corral] => "go gate"
+timeto: {"4686"=>0.2, "4687"=>0.2, "4638"=>0.2} is now {"4686"=>0.2, "4687"=>0.2, "4638"=>0.2, "22461"=>0.2}
+  added timeto:
+    22461: [Lyra-Flyr Corral] => 0.2
+  image: 'en-cysaegir-1264234799.png' is now 'en-cysaegir-1617439007.png'
+  image_coords: '[51, 641, 87, 677]' is now '[85, 377, 108, 401]'
+--------------------------------------------------
+4653 [Cysaegir, Linsandrych Common]
+  added tags:   ["supernode"]
+  image: 'en-cysaegir-1264234799.png' is now 'en-cysaegir-1617439007.png'
+  image_coords: '[819, 1126, 857, 1164]' is now '[565, 701, 590, 725]'
+--------------------------------------------------
+4688 [Naerine Hostelry, Tavern]
+wayto: {"4687"=>"northwest", "26096"=>StringProc.new("table = \"gold wing\"; fput \"go \#{table} table\" if dothistimeout(\"go \#{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"), "26097"=>StringProc.new("table = \"silver wing\"; fput \"go \#{table} table\" if dothistimeout(\"go \#{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"), "26105"=>StringProc.new("table = \"chartreuse wing\"; fput \"go \#{table} table\" if dothistimeout(\"go \#{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"), "26106"=>StringProc.new("table = \"sienna wing\"; fput \"go \#{table} table\" if dothistimeout(\"go \#{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"), "26107"=>StringProc.new("table = \"teal wing\"; fput \"go \#{table} table\" if dothistimeout(\"go \#{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"), "29540"=>"go bar"} is now {"4687"=>"northwest", "26096"=>StringProc.new("table = \"gold wing\"; fput \"go \#{table} table\" if dothistimeout(\"go \#{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"), "26097"=>StringProc.new("table = \"silver wing\"; fput \"go \#{table} table\" if dothistimeout(\"go \#{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"), "26105"=>StringProc.new("table = \"chartreuse wing\"; fput \"go \#{table} table\" if dothistimeout(\"go \#{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"), "26106"=>StringProc.new("table = \"sienna wing\"; fput \"go \#{table} table\" if dothistimeout(\"go \#{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"), "26107"=>StringProc.new("table = \"teal wing\"; fput \"go \#{table} table\" if dothistimeout(\"go \#{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/"), "29540"=>"go mahogany bar"}
+  image: 'en-cysaegir-1264234799.png' is now ''
+  image_coords: '[100, 583, 121, 604]' is now ''
+--------------------------------------------------
+8754 [House Sovyn, Courtyard]
+  added tags:   ["supernode"]
+--------------------------------------------------
+10068 [Sylvarraend, Town Commons]
+  added tags:   ["supernode"]
+--------------------------------------------------
+10403 [Dancing Dahcre, Hallway]
+wayto: {"10402"=>"north", "10404"=>"south"} is now {"10402"=>"north", "10404"=>"south", "29560"=>"go carved arch"}
+  added wayto:
+    29560: [Disbarring Dahcre Chamber] => "go carved arch"
+timeto: {"10402"=>0.2, "10404"=>0.2} is now {"10402"=>0.2, "10404"=>0.2, "29560"=>0.2}
+  added timeto:
+    29560: [Disbarring Dahcre Chamber] => 0.2
+--------------------------------------------------
+10861 [River's Rest, Town Commons]
+--------------------------------------------------
+13362 [Moonglae Inn, Rooftop Park]
+  added tags:   ["supernode"]
+--------------------------------------------------
+13424 [Veythorne Manor, The Glowbark]
+  added tags:   ["supernode"]
+--------------------------------------------------
+14891 [Hidden Canyon, Switchback]
+  added description:   ["Tall trees line both sides of a wide and rocky path, a mixture of grey-barked haon mingling with shingle monirs, quaking aspens, and silvery beeches to create a thick canopy overhead.  Dappled sunlight streams down to the forest floor in thin beams, encouraging the growth of wild flowers, like delicate white may apples and lavender lady slippers.  The switchback lead up toward a mountain forest and down toward a canyon."]
+wayto: {"14890"=>"go promontory", "14906"=>"down"} is now {"14890"=>"go promontory", "14906"=>"down", "29565"=>"up"}
+  added wayto:
+    29565: [Mountain Forest, Steep Path] => "up"
+timeto: {"14890"=>0.2, "14906"=>0.2} is now {"14890"=>0.2, "14906"=>0.2, "29565"=>0.2}
+  added timeto:
+    29565: [Mountain Forest, Steep Path] => 0.2
+  image: 'wl-halcyon_hills-1485363326.png' is now 'wl-halcyon_hills-1617459871.png'
+  image_coords: '[1610, 374, 1645, 408]' is now '[1155, 304, 1180, 329]'
+--------------------------------------------------
+14894 [Memorial Cavern]
+wayto: {"14893"=>"out"} is now {"14893"=>"out", "29564"=>"down"}
+  added wayto:
+    29564: [Memorial Cavern, Forge] => "down"
+timeto: {"14893"=>0.2} is now {"14893"=>0.2, "29564"=>0.2}
+  added timeto:
+    29564: [Memorial Cavern, Forge] => 0.2
+  image: 'wl-halcyon_hills-1485363326.png' is now 'wl-halcyon_hills-1617459871.png'
+  image_coords: '[1317, 478, 1386, 529]' is now '[1084, 179, 1108, 202]'
+--------------------------------------------------
+16183 [Beacon Hall, Common Room]
+  added tags:   ["node", "supernode"]
+--------------------------------------------------
+17587 [Western Harbor, Seathrak Way]
+  added tags:   ["supernode", "node"]
+--------------------------------------------------
+17589 [Western Harbor, Docks]
+  added tags:   ["node", "supernode"]
+--------------------------------------------------
+18258 [Stumbling Pebble Bar II]
+  added tags:   ["node", "supernode"]
+--------------------------------------------------
+18687 [Shadowed Alcove]
+  added tags:   ["supernode", "node"]
+--------------------------------------------------
+22461 [Lyra-Flyr Corral] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[25, 377, 49, 401]
+@image="en-cysaegir-1617439007.png"
+@timeto={"4639"=>0.2}
+@wayto={"4639"=>"out"}
+@terrain=nil
+@climate=nil
+@location="Cysaegir"
+@paths=["Obvious paths: out"]
+@description=["Set to one side of the bailey, near the hostelry, a small verdant corral is surrounded by a pale stone fence.  A beautiful maple stable sits towards the back of the enclosure.  High above the double sliding doors are a pair of morning doves perched on a stack of hay."]
+@title=["[Lyra-Flyr Corral]"]
+@id=22461
+--------------------------------------------------
+24555 [Ta'Illistim Green]
+  added tags:   ["supernode"]
+--------------------------------------------------
+28676 [Rockslinger's, Annex Corridor]
+wayto: {"28677"=>"west", "28675"=>"east"} is now {"28677"=>"west", "28675"=>"east", "29562"=>"go Beacon arch"}
+  added wayto:
+    29562: [Beacon Hall Archive Annex] => "go Beacon arch"
+timeto: {"28677"=>0.2, "28675"=>0.2} is now {"28677"=>0.2, "28675"=>0.2, "29562"=>0.2}
+  added timeto:
+    29562: [Beacon Hall Archive Annex] => 0.2
+--------------------------------------------------
+28717 [Lalena's Box Emporium]
+  added tags:   ["node", "supernode"]
+--------------------------------------------------
+28718 [Locksmithery, Side Room]
+  added tags:   ["supernode", "node"]
+--------------------------------------------------
+28813 [Wandering Eye Market]
+  added tags:   ["supernode", "node"]
+--------------------------------------------------
+28916 [Kraken's Fall, North Arm Lane]
+  added tags:   ["node"]
+--------------------------------------------------
+28937 [Wandering Eye Market, Wagon Top]
+  added tags:   ["node", "supernode"]
+--------------------------------------------------
+28950 [The Sea Hag's Roost, Tavern]
+  added tags:   ["node", "supernode"]
+--------------------------------------------------
+29560 [Disbarring Dahcre Chamber] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=["bhalocker"]
+@image_coords=nil
+@image=nil
+@timeto={"10403"=>0.2, "29561"=>0.2}
+@wayto={"10403"=>"go carved arch", "29561"=>"pull driftwood statue"}
+@terrain=nil
+@climate=nil
+@location="Ta'Vaalor"
+@paths=["Obvious exits: none"]
+@description=["The polished red sandstone floors and dark modwir wainscoting give this ample lounge a peaceful warmth.  Deep-cushioned chairs are drawn up around a white and red marble fireplace, above which hangs a beveled glass mirror framed in wrought iron.  A silver serving cart is stationed near the carved basalt arch that leads into this room, an ivory medallion set at its apex."]
+@title=["[Disbarring Dahcre Chamber]"]
+@id=29560
+--------------------------------------------------
+29561 [Darkened Chamber] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={"29560"=>0.2}
+@wayto={"29560"=>"pull mithglin ring"}
+@terrain=nil
+@climate=nil
+@location="Ta'Vaalor"
+@paths=["Obvious paths: none"]
+@description=["A single glaesine sconce attached to the wall illuminates the small chamber, casting a fitfully flickering light across the room's few features.  Smooth, dark-veined granite walls rise into the shadowed darkness.  Dangling from a chain at one side of the room is a small mithglin ring.  At the far end of the chamber is a simple curtained opening."]
+@title=["[Darkened Chamber]"]
+@id=29561
+--------------------------------------------------
+29562 [Beacon Hall Archive Annex] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={"28676"=>0.2, "29563"=>0.2}
+@wayto={"28676"=>"go brass arch", "29563"=>"go curtain"}
+@terrain=nil
+@climate=nil
+@location="Zul Logoth"
+@paths=["Obvious exits: none"]
+@description=["Two huge toadstools in large stone pots illuminate a large, comfortable room.  Dusky brown granite benches line two of the marble walls, facing each other across the sapphire carpet.  On one wall, a brass arch allows exit to the corridor outside, while on the other wall a curtain provides entrance to the locker area."]
+@title=["[Beacon Hall Archive Annex]"]
+@id=29562
+--------------------------------------------------
+29563 [Beacon Hall Annex, Locker] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=["bhalocker"]
+@image_coords=nil
+@image=nil
+@timeto={"29562"=>0.2}
+@wayto={"29562"=>"go curtain"}
+@terrain=nil
+@climate=nil
+@location="Zul Logoth"
+@paths=["Obvious exits: none"]
+@description=["A small swarm of fireflies flit about in a cylindrical cage hung from the granite ceiling.  Their blinking green and yellow glows softly illuminate this small room.  Though the marble walls are unadorned and the granite floor is uncarpeted, the room still provides a quiet place for contemplating the contents of your locker."]
+@title=["[Beacon Hall Annex, Locker]"]
+@id=29563
+--------------------------------------------------
+29564 [Memorial Cavern, Forge] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[1059, 226, 1132, 267]
+@image="wl-halcyon_hills-1617459871.png"
+@timeto={"14894"=>0.2}
+@wayto={"14894"=>"up"}
+@terrain=nil
+@climate=nil
+@location="Wehnimer's Landing"
+@paths=["Obvious exits: up"]
+@description=["An iron anvil rests in the center of the small cavernous forge, surrounded by candles that keep the area dimly lit.  Tools of the trade lie scattered across the ground, covered in silt and mica."]
+@title=["[Memorial Cavern, Forge]"]
+@id=29564
+--------------------------------------------------
+29565 [Mountain Forest, Steep Path] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[1156, 263, 1179, 285]
+@image="wl-halcyon_hills-1617459871.png"
+@timeto={"14891"=>0.2, "29566"=>0.2}
+@wayto={"14891"=>"down", "29566"=>"up"}
+@terrain=nil
+@climate=nil
+@location="Wehnimer's Landing"
+@paths=["Obvious paths: up, down"]
+@description=["Dense forest abruptly cuts off the trail leading up the mountainside, but a steep path can still be traversed through the lush greenery.  Small breaks in the canopy overhead allow sunlight to pour onto the forest floor.  The scent of wildflowers lingers in the air."]
+@title=["[Mountain Forest, Steep Path]"]
+@id=29565
+--------------------------------------------------
+29566 [Mountain Forest, Secluded Path] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[1155, 220, 1180, 244]
+@image="wl-halcyon_hills-1617459871.png"
+@timeto={"29565"=>0.2, "29567"=>0.2}
+@wayto={"29565"=>"down", "29567"=>"east"}
+@terrain=nil
+@climate=nil
+@location="Wehnimer's Landing"
+@paths=["Obvious paths: east, down"]
+@description=["Mossy vegetation covers everything in sight, from the trees to the forest floor.  Fallen leaves are strewn along the path, which leads eastward through a break in the mountain.  Rays of sunlight shine upon a lichen-covered boulder, highlighting odd markings in the stone."]
+@title=["[Mountain Forest, Secluded Path]"]
+@id=29566
+--------------------------------------------------
+29567 [Mountain Forest, Pond] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[1203, 208, 1276, 256]
+@image="wl-halcyon_hills-1617459871.png"
+@timeto={"29566"=>0.2}
+@wayto={"29566"=>"west"}
+@terrain=nil
+@climate=nil
+@location="Wehnimer's Landing"
+@paths=["Obvious paths: west"]
+@description=["A cherry tree stands guard over a small, shallow pond overlooking Halcyon Hills.  Forest creatures gather around the tranquil pond, some darting in and out of the area.  A leaf-covered wooden cabin has an open doorway, inviting adventurers inside."]
+@title=["[Mountain Forest, Pond]"]
+@id=29567
+--------------------------------------------------
+29737 [The Beacon Lounge]
+  added tags:   ["bhalocker"]
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29610
+current map size: 29619
+34 rooms with changes found.
+9 new rooms
+0 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
