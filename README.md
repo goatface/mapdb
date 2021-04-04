@@ -8,7 +8,7 @@
 4) All public rooms on gswiki that are supernodes are now tagged
 5) All rooms on Western Dragonspine had check_location turned off
 6) A couple paths around IMT/Pinefar now have adjectives to avoid warcamps
-7) IMT public lockers can now ;go2 from town, etc
+7) IMT public lockers can now ;go2 from town, etc *got missed in inital update, live now!* 
 
 ## Edit by anonymous -- PLEASE JOIN OUR SERVER
 Seems sane, but we do not know who grabbed the mapdb (which we have been trying to prevent). 
