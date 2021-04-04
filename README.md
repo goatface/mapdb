@@ -22,7 +22,7 @@ ___
 
 Change timeto from 12297 (outside) to 21324 (inside) to 0.2 from 2.0 because this was probably done to avoid pile-ons below, now fixed.
 
-*Same Locker: 25998*
+**Same Locker: 25998**
 
 Scrap SilverGate and Sylvanfair pile-on tag, wayto, timeto
 
@@ -36,7 +36,7 @@ wayto & timeto both ways
 ___
 28224 [Annex, House Sylvanfair Lobby]
 
-*New Locker: 29569*
+**New Locker: 29569**
 
 (also, we remove the wayto and time to 25998 which was piled on)
 
@@ -44,13 +44,13 @@ wayto & timeto for the new locker
 ___
 29568 [Annex, Willow Hall Lobby]
 
-*New Locker: 29570*
+**New Locker: 29570**
 
 wayto & timeto for the new locker
 ___
 24210 [Annex, House Brigatta Lobby]
 
-*New Locker: 29571*
+**New Locker: 29571**
 
 wayto & timeto for the new locker
 ___
@@ -66,13 +66,13 @@ updated manually
 
 @paths=["Obvious exits: out", "Obvious exits: none"]
 
-*New Locker: 29572*
+**New Locker: 29572**
 
 wayto & timeto for the new locker
 ___
 27634 [Annex, Silvergate Inn Lobby]
 
-*New Locker: 29573*
+**New Locker: 29573**
 
 Scrap wayto & timeto 25998 pile-on
 
