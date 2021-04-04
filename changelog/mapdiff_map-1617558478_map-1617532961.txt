@@ -1,0 +1,19 @@
+diffing old map-1617532961.json to new map-1617558478.json
+--------------------------------------------------
+29534 [Clovertooth Hall, Lockers]
+wayto: {"29533"=>"go hallway", "29548"=>"southeast", "29549"=>"northeast"} is now {"29533"=>"go hallway", "29548"=>"southeast", "29549"=>"northeast", "2485"=>"go curtain"}
+  added wayto:
+    2485: [Clovertooth Hall, Locker Booth] => "go curtain"
+timeto: {"29533"=>0.2, "29548"=>0.2, "29549"=>0.2} is now {"29533"=>0.2, "29548"=>0.2, "29549"=>0.2, "2485"=>0.2}
+  added timeto:
+    2485: [Clovertooth Hall, Locker Booth] => 0.2
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29625
+current map size: 29625
+1 rooms with changes found.
+0 new rooms
+0 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
