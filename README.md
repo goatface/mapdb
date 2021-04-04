@@ -24,11 +24,11 @@ Any CHE with an existing FWI Annex room but *not* a dedicated, unique locker roo
 
 For full details, see https://pastebin.com/MhpSVd47
 ___
-###[Annex, Cairnfang Manor Lobby]
+### [Annex, Cairnfang Manor Lobby]
 Entry area: 22227 
 Fixed entry door adjective (ivory), in case a new CHE was ever added.
 ___
-###[Annex, White Haven Lobby]
+### [Annex, White Haven Lobby]
 Entry area: 21324 
 
 Duplicate: 25997 -- merged to above room
@@ -37,35 +37,35 @@ Duplicate: 25997 -- merged to above room
 
 White Haven gets to keep Kaldonis's StringProc for auto-closing lockers.  Lucky devils!
 ___
-###[Annex, Rone Academy Lobby]
+### [Annex, Rone Academy Lobby]
 Entry area: 25901
 
 **New Locker: 25997** (the room number was previously a White Haven duplicate)
 ___
-###[Annex, House Sylvanfair Lobby]
+### [Annex, House Sylvanfair Lobby]
 Entry area: 28224 
 
 **New Locker: 29569**
 
 ___
-###[Annex, Willow Hall Lobby]
+### [Annex, Willow Hall Lobby]
 **New Entry area: 29568**, tagged: `;go2 WillowHall`
 
 **New Locker: 29570**
 ___
-###[Annex, House Brigatta Lobby]
+### [Annex, House Brigatta Lobby]
 Entry area: 24210 
 
 **New Locker: 29571**
 ___
-###[Annex, House Sovyn Lobby]
+### [Annex, House Sovyn Lobby]
 Entry area: 25885 
 
 *NB: This room was probably already broken*; this should fix it: @paths=["Obvious exits: out", "Obvious exits: none"]
 
 **New Locker: 29572**
 ___
-###[Annex, Silvergate Inn Lobby]
+### [Annex, Silvergate Inn Lobby]
 Entry area: 27634 
 
 **New Locker: 29573**
