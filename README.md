@@ -10,8 +10,8 @@
 6) A couple paths around IMT/Pinefar now have adjectives to avoid warcamps
 7) IMT public lockers can now ;go2 from town, etc
 
-## Edit by unknown person
-Seems sane, but whoever did it remained anonymous.  If this causes an issue, complain to the mapdb team.
+## Edit by anonymous
+Seems sane, but we do not know who grabbed the mapdb (which we have been trying to prevent). 
 ___
 16745 [Aradhul Road, Rocky Trail]
 timeto: {"16744"=>0.2, "16746"=>15000} is now {"16744"=>0.2, "16746"=>15}
