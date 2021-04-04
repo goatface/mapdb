@@ -45,7 +45,7 @@ ___
 ### [Annex, House Sylvanfair Lobby]
 Entry area: 28224 
 
-**New Locker: 29569**
+**New Locker: 29569**, *NB: This was piled on to 25998 previously*
 
 ___
 ### [Annex, Willow Hall Lobby]
@@ -68,7 +68,7 @@ ___
 ### [Annex, Silvergate Inn Lobby]
 Entry area: 27634 
 
-**New Locker: 29573**
+**New Locker: 29573**, *NB: This was piled on to 25998 previously*
 
 Tagged: `;go2 sglocker`
 
