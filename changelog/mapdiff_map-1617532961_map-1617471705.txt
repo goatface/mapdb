@@ -1,0 +1,214 @@
+diffing old map-1617471705.json to new map-1617532961.json
+--------------------------------------------------
+12297 [Atrium, Annex Hallway]
+timeto: {"16700"=>0.2, "12296"=>0.2, "15002"=>0.2, "28224"=>0.2, "21324"=>2.0} is now {"16700"=>0.2, "12296"=>0.2, "15002"=>0.2, "28224"=>0.2, "21324"=>0.2}
+--------------------------------------------------
+12298 [Atrium, Annex Hallway]
+wayto: {"16700"=>"south", "22227"=>"go door", "22228"=>"north"} is now {"16700"=>"south", "22227"=>"go ivory door", "22228"=>"north"}
+--------------------------------------------------
+16700 [Atrium, Annex Hallway]
+wayto: {"12297"=>"south", "12298"=>"north", "22407"=>"go ivory door", "25901"=>"go purple door"} is now {"12297"=>"south", "12298"=>"north", "22407"=>"go ivory door", "25901"=>"go purple door", "29568"=>"go green door"}
+  added wayto:
+    29568: [Annex, Willow Hall Lobby] => "go green door"
+timeto: {"12297"=>0.2, "12298"=>0.2, "22407"=>0.2, "25901"=>0.2} is now {"12297"=>0.2, "12298"=>0.2, "22407"=>0.2, "25901"=>0.2, "29568"=>0.2}
+  added timeto:
+    29568: [Annex, Willow Hall Lobby] => 0.2
+--------------------------------------------------
+21324 [Annex, White Haven Lobby]
+  added description:   ["Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A white velvet pennant edged with icy blue hangs near a heavy, white muslin curtain."]
+wayto: {"12297"=>"go arch"} is now {"12297"=>"go arch", "25998"=>"go curtain"}
+  added wayto:
+    25998: [Annex, Booth] => "go curtain"
+timeto: {"12297"=>0.2} is now {"12297"=>0.2, "25998"=>0.2}
+  added timeto:
+    25998: [Annex, Booth] => 0.2
+--------------------------------------------------
+24210 [Annex, House Brigatta Lobby]
+wayto: {"12296"=>"go arch"} is now {"12296"=>"go arch", "29571"=>"go curtain"}
+  added wayto:
+    29571: [Annex, Booth] => "go curtain"
+timeto: {"12296"=>0.2} is now {"12296"=>0.2, "29571"=>0.2}
+  added timeto:
+    29571: [Annex, Booth] => 0.2
+--------------------------------------------------
+25885 [Annex, House Sovyn Lobby]
+wayto: {"12296"=>"out"} is now {"12296"=>"out", "29572"=>"go curtain"}
+  added wayto:
+    29572: [Annex, Booth] => "go curtain"
+timeto: {"12296"=>0.2} is now {"12296"=>0.2, "29572"=>0.2}
+  added timeto:
+    29572: [Annex, Booth] => 0.2
+--------------------------------------------------
+25901 [Annex, Rone Academy Lobby]
+wayto: {"16700"=>"go arch"} is now {"16700"=>"go arch", "25997"=>"go curtain"}
+  added wayto:
+    25997: [Annex, Booth] => "go curtain"
+timeto: {"16700"=>0.2} is now {"16700"=>0.2, "25997"=>0.2}
+  added timeto:
+    25997: [Annex, Booth] => 0.2
+--------------------------------------------------
+25997 [Annex, Booth]
+title: [Annex, White Haven Lobby] is now [Annex, Booth]
+  added description:   ["You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."]
+  removed description: ["Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A white velvet pennant edged with icy blue hangs near a heavy, white muslin curtain."]
+wayto: {"25998"=>"go curtain", "12297"=>"out"} is now {"25901"=>"go curtain"}
+  added wayto:
+    25901: [Annex, Rone Academy Lobby] => "go curtain"
+  removed wayto:
+    25998: [Annex, Booth] => "go curtain"
+    12297: [Atrium, Annex Hallway] => "out"
+timeto: {"25998"=>0.2, "12297"=>0.2} is now {"25901"=>0.2}
+  added timeto:
+    25901: [Annex, Rone Academy Lobby] => 0.2
+  removed timeto:
+    25998: [Annex, Booth] => 0.2
+    12297: [Atrium, Annex Hallway] => 0.2
+  added tags:   ["peer curtain =~ /^\\[Annex, Rone Academy Lobby\\]$/"]
+--------------------------------------------------
+25998 [Annex, Booth]
+wayto: {"25997"=>StringProc.new("room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end"), "27634"=>StringProc.new("room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end"), "28224"=>"go curtain"} is now {"21324"=>StringProc.new("room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end")}
+  added wayto:
+    21324: [Annex, White Haven Lobby] => StringProc.new("room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end")
+  removed wayto:
+    25997: [Annex, White Haven Lobby] => StringProc.new("room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end")
+    27634: [Annex, Silvergate Inn Lobby] => StringProc.new("room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end")
+    28224: [Annex, House Sylvanfair Lobby] => "go curtain"
+timeto: {"25997"=>0.2, "27634"=>0.2, "28224"=>0.2} is now {"21324"=>0.2}
+  added timeto:
+    21324: [Annex, White Haven Lobby] => 0.2
+  removed timeto:
+    25997: [Annex, White Haven Lobby] => 0.2
+    27634: [Annex, Silvergate Inn Lobby] => 0.2
+    28224: [Annex, House Sylvanfair Lobby] => 0.2
+  added tags:   ["peer curtain =~ /^\\[Annex, White Haven Lobby\\]$/"]
+  removed tags: ["sglocker"]
+--------------------------------------------------
+27634 [Annex, Silvergate Inn Lobby]
+wayto: {"25998"=>"go curtain", "12296"=>StringProc.new("move 'go arch'; $go2_restart = true")} is now {"12296"=>StringProc.new("move 'go arch'; $go2_restart = true"), "29573"=>"go curtain"}
+  added wayto:
+    29573: [Annex, Booth] => "go curtain"
+  removed wayto:
+    25998: [Annex, Booth] => "go curtain"
+timeto: {"25998"=>0.2, "12296"=>0.2} is now {"12296"=>0.2, "29573"=>0.2}
+  added timeto:
+    29573: [Annex, Booth] => 0.2
+  removed timeto:
+    25998: [Annex, Booth] => 0.2
+--------------------------------------------------
+28224 [Annex, House Sylvanfair Lobby]
+wayto: {"12297"=>"go arch", "25998"=>"go curtain"} is now {"12297"=>"go arch", "29569"=>"go curtain"}
+  added wayto:
+    29569: [Annex, Booth] => "go curtain"
+  removed wayto:
+    25998: [Annex, Booth] => "go curtain"
+timeto: {"25998"=>0.2, "12297"=>0.2} is now {"12297"=>0.2, "29569"=>0.2}
+  added timeto:
+    29569: [Annex, Booth] => 0.2
+  removed timeto:
+    25998: [Annex, Booth] => 0.2
+--------------------------------------------------
+29568 [Annex, Willow Hall Lobby] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=["WillowHall", "Willowhall"]
+@image_coords=nil
+@image=nil
+@timeto={"16700"=>0.2, "29570"=>0.2}
+@wayto={"16700"=>"go arch", "29570"=>"go curtain"}
+@terrain=nil
+@climate=nil
+@location="Mist Harbor"
+@paths=["Obvious exits: none"]
+@description=["Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A black velvet pennant edged with green hangs near a heavy, white muslin curtain."]
+@title=["[Annex, Willow Hall Lobby]"]
+@id=29568
+--------------------------------------------------
+29569 [Annex, Booth] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=["peer curtain =~ /^\\[Annex, House Sylvanfair Lobby\\]$/"]
+@image_coords=nil
+@image=nil
+@timeto={"28224"=>0.2}
+@wayto={"28224"=>"go curtain"}
+@terrain=nil
+@climate=nil
+@location="Mist Harbor"
+@paths=["Obvious exits: none"]
+@description=["You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."]
+@title=["[Annex, Booth]"]
+@id=29569
+--------------------------------------------------
+29570 [Annex, Booth] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=["peer curtain =~ /^\\[Annex, Willow Hall Lobby\\]$/"]
+@image_coords=nil
+@image=nil
+@timeto={"29568"=>0.2}
+@wayto={"29568"=>"go curtain"}
+@terrain=nil
+@climate=nil
+@location="Mist Harbor"
+@paths=["Obvious exits: none"]
+@description=["You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."]
+@title=["[Annex, Booth]"]
+@id=29570
+--------------------------------------------------
+29571 [Annex, Booth] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=["peer curtain =~ /^\\[Annex, House Brigatta Lobby\\]$/"]
+@image_coords=nil
+@image=nil
+@timeto={"24210"=>0.2}
+@wayto={"24210"=>"go curtain"}
+@terrain=nil
+@climate=nil
+@location="Mist Harbor"
+@paths=["Obvious exits: none"]
+@description=["You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."]
+@title=["[Annex, Booth]"]
+@id=29571
+--------------------------------------------------
+29572 [Annex, Booth] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=["peer curtain =~ /^\\[Annex, House Sovyn Lobby\\]$/"]
+@image_coords=nil
+@image=nil
+@timeto={"25885"=>0.2}
+@wayto={"25885"=>"go curtain"}
+@terrain=nil
+@climate=nil
+@location="Mist Harbor"
+@paths=["Obvious exits: none"]
+@description=["You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."]
+@title=["[Annex, Booth]"]
+@id=29572
+--------------------------------------------------
+29573 [Annex, Booth] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=["peer curtain =~ /^\\[Annex, Silvergate Inn Lobby\\]$/", "sglocker"]
+@image_coords=nil
+@image=nil
+@timeto={"27634"=>0.2}
+@wayto={"27634"=>"go curtain"}
+@terrain=nil
+@climate=nil
+@location="Mist Harbor"
+@paths=["Obvious exits: none"]
+@description=["You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."]
+@title=["[Annex, Booth]"]
+@id=29573
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29619
+current map size: 29625
+11 rooms with changes found.
+6 new rooms
+0 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
