@@ -73,6 +73,6 @@ Entry area: 27634
 Tagged: `;go2 sglocker`
 
 ___
-We add tags like the following style:
+We add tags like the following style with an untagged room to make all the new ones.
 
-;e echo Room[29573].tags.push('peer curtain =~ /^\\[Annex, Silvergate Lobby\\]$/')
+`;e echo Room[29573].tags.push('peer curtain =~ /^\\[Annex, Silvergate Lobby\\]$/')`
