@@ -46,7 +46,7 @@ Entry area: 28224 [Annex, House Sylvanfair Lobby]
 **New Locker: 29569**
 
 ___
-Entry area: 29568 [Annex, Willow Hall Lobby]
+**New Entry area: 29568** [Annex, Willow Hall Lobby], tagged `;go2 WillowHall`
 
 **New Locker: 29570**
 ___
