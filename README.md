@@ -20,7 +20,7 @@ ___
 timeto: {"16745"=>15000, "16747"=>0.2} is now {"16745"=>15, "16747"=>0.2}
 
 ## 4 April 2021 - FWI CHE lockers
-Any CHE with an existing FWI Annex room but *not* a dedicated, unique locker room now has one!  CHEs that already had unique lockers were not modified (except one entry door), and CHEs without entry areas missed out on this update, because a non-member has no way to obtain the room description.
+Any CHE with an existing FWI Annex room but *not* a dedicated, unique locker room now has one!  CHEs that already had unique lockers were not modified (except one entry door), and CHEs without entry areas generally missed out on this update, because a non-member has no way to obtain the room description.
 
 For full details, see https://pastebin.com/MhpSVd47
 ___
