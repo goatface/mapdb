@@ -13,12 +13,12 @@ Kaldonis-moderated mapdb mainly touched by bona fide map editors.
 # 4 April 2021 - FWI CHE lockers
 For full details, see https://pastebin.com/MhpSVd47
 ___
-22227 [Annex, Cairnfang Manor Lobby]
+Entry area: 22227 [Annex, Cairnfang Manor Lobby]
 Fixed door adjective (ivory), in case a new CHE was ever added.
 ___
-21324 [Annex, White Haven Lobby]
+Entry area: 21324 [Annex, White Haven Lobby]
 
-25997 [Annex, White Haven Lobby] -- squished and given to Rone locker
+Duplicate: 25997 [Annex, White Haven Lobby] -- squished and given to Rone locker
 
 Change timeto from 12297 (outside) to 21324 (inside) to 0.2 from 2.0 because this was probably done to avoid pile-ons below, now fixed.
 
@@ -26,30 +26,30 @@ Change timeto from 12297 (outside) to 21324 (inside) to 0.2 from 2.0 because thi
 
 White Haven gets to keep Kaldonis's StringProc for auto-closing lockers.  Lucky devils!
 ___
-25901 [Annex, Rone Academy Lobby]
+Entry area: 25901 [Annex, Rone Academy Lobby]
 
 **New Locker: 25997** (was duplicate White Haven entry)
 ___
-28224 [Annex, House Sylvanfair Lobby]
+Entry area: 28224 [Annex, House Sylvanfair Lobby]
 
 **New Locker: 29569**
 
 ___
-29568 [Annex, Willow Hall Lobby]
+Entry area: 29568 [Annex, Willow Hall Lobby]
 
 **New Locker: 29570**
 ___
-24210 [Annex, House Brigatta Lobby]
+Entry area: 24210 [Annex, House Brigatta Lobby]
 
 **New Locker: 29571**
 ___
-25885 [Annex, House Sovyn Lobby] 
+Entry area: 25885 [Annex, House Sovyn Lobby] 
 
 NB: This room was probably already broken; this should fix it: @paths=["Obvious exits: out", "Obvious exits: none"]
 
 **New Locker: 29572**
 ___
-27634 [Annex, Silvergate Inn Lobby]
+Entry area: 27634 [Annex, Silvergate Inn Lobby]
 
 **New Locker: 29573**
 
