@@ -1,7 +1,7 @@
 # mapdb
-Kaldonis-moderated mapdb mainly touched by bona fide map editors.
+**Kaldonis-moderated mapdb reviewed by bona fide map editors.**
 
-# 3 April 2021 - various works
+## 3 April 2021 - various works
 1) Updated Cysaegir graphics, new Stables room, supernode tags, bar RP entry fixed.
 2) Updated Halcyon Hills graphics, added new rooms
 3) All the Beacon Hall lockers and tags that were missing
@@ -10,7 +10,7 @@ Kaldonis-moderated mapdb mainly touched by bona fide map editors.
 6) A couple paths around IMT/Pinefar now have adjectives to avoid warcamps
 7) IMT public lockers can now ;go2 from town, etc
 
-# Edit by unknown person
+## Edit by unknown person
 Seems sane, but whoever did it remained anonymous.  If this causes an issue, complain to the mapdb team.
 ___
 16745 [Aradhul Road, Rocky Trail]
@@ -19,7 +19,7 @@ ___
 16746 [Aradhul Road, Rocky Trail]
 timeto: {"16745"=>15000, "16747"=>0.2} is now {"16745"=>15, "16747"=>0.2}
 
-# 4 April 2021 - FWI CHE lockers
+## 4 April 2021 - FWI CHE lockers
 Any CHE with an Annex room but *not* a dedicated, unique locker room now has one!  CHEs that already had unique lockers were not modified (except one entry door), and CHEs without entry areas missed out on this update, because a non-member has no way to obtain the room description.
 
 For full details, see https://pastebin.com/MhpSVd47
