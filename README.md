@@ -39,7 +39,7 @@ White Haven gets to keep Kaldonis's StringProc for auto-closing lockers.  Lucky 
 ___
 Entry area: 25901 [Annex, Rone Academy Lobby]
 
-**New Locker: 25997** (was duplicate White Haven entry)
+**New Locker: 25997** (the room number was previously a White Haven duplicate)
 ___
 Entry area: 28224 [Annex, House Sylvanfair Lobby]
 
