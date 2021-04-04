@@ -10,6 +10,16 @@ Kaldonis-moderated mapdb mainly touched by bona fide map editors.
 6) A couple paths around IMT/Pinefar now have adjectives to avoid warcamps
 7) IMT public lockers can now ;go2 from town, etc
 
+# Edit by unknown person
+
+--------------------------------------------------
+16745 [Aradhul Road, Rocky Trail]
+timeto: {"16744"=>0.2, "16746"=>15000} is now {"16744"=>0.2, "16746"=>15}
+--------------------------------------------------
+16746 [Aradhul Road, Rocky Trail]
+timeto: {"16745"=>15000, "16747"=>0.2} is now {"16745"=>15, "16747"=>0.2}
+--------------------------------------------------
+
 # 4 April 2021 - FWI CHE lockers
 Any CHE with an Annex room but *not* a dedicated, unique locker room now has one!  CHEs that already had unique lockers were not modified (except one entry door), and CHEs without entry areas missed out on this update, because a non-member has no way to obtain the room description.
 
