@@ -13,7 +13,7 @@ Kaldonis-moderated mapdb mainly touched by bona fide map editors.
 # 4 April 2021 - FWI CHE lockers
 22227 [Annex, Cairnfang Manor Lobby]
 Fixed door adjective (ivory), in case a new CHE was ever added.
----
+___
 21324 [Annex, White Haven Lobby]
 25997 [Annex, White Haven Lobby] -- squished and given to Rone locker
 ;mapnav merge 25997 21324
