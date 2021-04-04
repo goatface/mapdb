@@ -11,6 +11,8 @@ Kaldonis-moderated mapdb mainly touched by bona fide map editors.
 7) IMT public lockers can now ;go2 from town, etc
 
 # 4 April 2021 - FWI CHE lockers
+For full details, see https://pastebin.com/MhpSVd47
+___
 22227 [Annex, Cairnfang Manor Lobby]
 Fixed door adjective (ivory), in case a new CHE was ever added.
 ___
@@ -18,65 +20,41 @@ ___
 
 25997 [Annex, White Haven Lobby] -- squished and given to Rone locker
 
-;mapnav merge 25997 21324
-
 Change timeto from 12297 (outside) to 21324 (inside) to 0.2 from 2.0 because this was probably done to avoid pile-ons below, now fixed.
 
 **Same Locker: 25998**
 
-Scrap SilverGate and Sylvanfair pile-on tag, wayto, timeto
-
-White Haven gets to keep Kaldonis's StringProc for auto-closing lockers, despite his player having no members.  Lucky devils!
+White Haven gets to keep Kaldonis's StringProc for auto-closing lockers.  Lucky devils!
 ___
 25901 [Annex, Rone Academy Lobby]
 
-New Locker: 25997 (was duplicate White Haven entry #)
-
-wayto & timeto both ways
+**New Locker: 25997** (was duplicate White Haven entry)
 ___
 28224 [Annex, House Sylvanfair Lobby]
 
 **New Locker: 29569**
 
-(also, we remove the wayto and time to 25998 which was piled on)
-
-wayto & timeto for the new locker
 ___
 29568 [Annex, Willow Hall Lobby]
 
 **New Locker: 29570**
-
-wayto & timeto for the new locker
 ___
 24210 [Annex, House Brigatta Lobby]
 
 **New Locker: 29571**
-
-wayto & timeto for the new locker
 ___
 25885 [Annex, House Sovyn Lobby] 
 
-NB: This room was probably already broken.
-
-@paths=["Obvious exits: out"]
-
-updated manually
-
-;e echo Room[25885].paths.push('Obvious exits: none')
-
-@paths=["Obvious exits: out", "Obvious exits: none"]
+NB: This room was probably already broken; this should fix it: @paths=["Obvious exits: out", "Obvious exits: none"]
 
 **New Locker: 29572**
-
-wayto & timeto for the new locker
 ___
 27634 [Annex, Silvergate Inn Lobby]
 
 **New Locker: 29573**
 
-Scrap wayto & timeto 25998 pile-on
+Tagged: `;go2 sglocker`
 
-wayto & timeto for the new locker
 ___
 We add tags like the following style:
 
