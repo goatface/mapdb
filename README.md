@@ -11,6 +11,8 @@ Kaldonis-moderated mapdb mainly touched by bona fide map editors.
 7) IMT public lockers can now ;go2 from town, etc
 
 # 4 April 2021 - FWI CHE lockers
+Any CHE with an Annex room but *not* a dedicated, unique locker room now has one!  CHEs that already had unique lockers were not modified (except one entry door), and CHEs without entry areas missed out on this update, because a non-member has no way to obtain the room description.
+
 For full details, see https://pastebin.com/MhpSVd47
 ___
 Entry area: 22227 [Annex, Cairnfang Manor Lobby]
