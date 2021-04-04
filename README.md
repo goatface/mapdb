@@ -21,24 +21,24 @@ Change timeto from 12297 (outside) to 21324 (inside) to 0.2 from 2.0 because thi
 Same Locker: 25998
 Scrap SilverGate and Sylvanfair pile-on tag, wayto, timeto
 White Haven gets to keep Kaldonis's StringProc for auto-closing lockers, despite his player having no members.  Lucky devils!
----
+___
 25901 [Annex, Rone Academy Lobby]
 New Locker: 25997 (was duplicate White Haven entry #)
 wayto & timeto both ways
----
+___
 28224 [Annex, House Sylvanfair Lobby]
 New Locker: 29569
 (also, we remove the wayto and time to 25998 which was piled on)
 wayto & timeto for the new locker
----
+___
 29568 [Annex, Willow Hall Lobby]
 New Locker: 29570
 wayto & timeto for the new locker
----
+___
 24210 [Annex, House Brigatta Lobby]
 New Locker: 29571
 wayto & timeto for the new locker
----
+___
 25885 [Annex, House Sovyn Lobby] 
 NB: This room was probably already broken.
 @paths=["Obvious exits: out"]
@@ -47,12 +47,12 @@ updated manually
 @paths=["Obvious exits: out", "Obvious exits: none"]
 New Locker: 29572
 wayto & timeto for the new locker
----
+___
 27634 [Annex, Silvergate Inn Lobby]
 New Locker: 29573
 Scrap wayto & timeto 25998 pile-on
 wayto & timeto for the new locker
----
+___
 We add tags like the following style:
 ;e echo Room[29573].tags.push('peer curtain =~ /^\\[Annex, Silvergate Lobby\\]$/')
 
