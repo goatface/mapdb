@@ -31,7 +31,7 @@ ___
 ### [Annex, White Haven Lobby]
 Entry area: 21324 
 
-Duplicate: 25997 -- merged to above room
+Duplicate: 25997 -- merged to above.  *NB: This room number is now inside Rone's locker, below*
 
 **Same Locker: 25998**
 
