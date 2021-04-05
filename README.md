@@ -1,23 +1,14 @@
 # mapdb
 **Kaldonis-moderated mapdb reviewed by bona fide map editors.**
 
-## 3 April 2021 - various works
-1) Updated Cysaegir graphics, new Stables room, supernode tags, bar RP entry fixed.
-2) Updated Halcyon Hills graphics, added new rooms
-3) All the Beacon Hall lockers and tags that were missing
-4) All public rooms on gswiki that are supernodes are now tagged
-5) All rooms on Western Dragonspine had check_location turned off
-6) A couple paths around IMT/Pinefar now have adjectives to avoid warcamps
-7) IMT public lockers can now ;go2 from town, etc *got missed in inital update, live now!* 
-
-## Edit by anonymous -- PLEASE JOIN OUR SERVER
-Seems sane, but we do not know who grabbed the mapdb (which we have been trying to prevent). 
-___
-16745 [Aradhul Road, Rocky Trail]
-timeto: {"16744"=>0.2, "16746"=>15000} is now {"16744"=>0.2, "16746"=>15}
-___
-16746 [Aradhul Road, Rocky Trail]
-timeto: {"16745"=>15000, "16747"=>0.2} is now {"16745"=>15, "16747"=>0.2}
+## 5 April 2021 - Neartofar and EN Cemetery, et al.
+1) New graphical map for Neartofar and EN Cemetery
+2) Fixed the Cemetery goofy identical rooms
+3) Removed all the check_location calls in Cemetery
+4) Removed 'some basal moss' in 8496, 8495, 8476, 3603, 218 (WL area)
+5) **All** IMT Clovertooth rooms are linked to go in lockers
+6) BUG in game for the eastern room, cannot enter
+7) A blindly-added meta-tag for forage broke a room in WL GY `;mapnav merge 29708 7305`
 
 ## 4 April 2021 - FWI CHE lockers
 Any CHE with an existing FWI Annex room but *not* a dedicated, unique locker room now has one!  CHEs that already had unique lockers were not modified (except one entry door), and CHEs without entry areas generally missed out on this update, because a non-member has no way to obtain the room description.
@@ -78,3 +69,22 @@ ___
 We add tags like the following style with an untagged room to make all the new ones.
 
 `;e echo Room[29573].tags.push('peer curtain =~ /^\\[Annex, Silvergate Lobby\\]$/')`
+
+## 3 April 2021 - various works
+1) Updated Cysaegir graphics, new Stables room, supernode tags, bar RP entry fixed.
+2) Updated Halcyon Hills graphics, added new rooms
+3) All the Beacon Hall lockers and tags that were missing
+4) All public rooms on gswiki that are supernodes are now tagged
+5) All rooms on Western Dragonspine had check_location turned off
+6) A couple paths around IMT/Pinefar now have adjectives to avoid warcamps
+7) IMT public lockers can now ;go2 from town, etc *got missed in inital update, live now!* 
+
+## Edit by anonymous -- PLEASE JOIN OUR SERVER
+Seems sane, but we do not know who grabbed the mapdb (which we have been trying to prevent). 
+___
+16745 [Aradhul Road, Rocky Trail]
+timeto: {"16744"=>0.2, "16746"=>15000} is now {"16744"=>0.2, "16746"=>15}
+___
+16746 [Aradhul Road, Rocky Trail]
+timeto: {"16745"=>15000, "16747"=>0.2} is now {"16745"=>15, "16747"=>0.2}
+

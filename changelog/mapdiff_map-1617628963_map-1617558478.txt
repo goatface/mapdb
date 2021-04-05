@@ -1,0 +1,201 @@
+diffing old map-1617558478.json to new map-1617628963.json
+--------------------------------------------------
+218 [Lower Dragonsclaw, Forest]
+  removed tags: ["some ephlox moss"]
+--------------------------------------------------
+3603 [A Silent Path]
+  removed tags: ["some ephlox moss"]
+--------------------------------------------------
+5870 [Glaise Cnoc, Cemetery]
+wayto: {"5869"=>"southeast", "5871"=>"northwest"} is now {"5869"=>"southeast", "29576"=>"northwest"}
+  added wayto:
+    29576: [Glaise Cnoc, Cemetery] => "northwest"
+  removed wayto:
+    5871: [Glaise Cnoc, Cemetery] => "northwest"
+timeto: {"5869"=>0.2, "5871"=>0.2} is now {"5869"=>0.2, "29576"=>0.2}
+  added timeto:
+    29576: [Glaise Cnoc, Cemetery] => 0.2
+  removed timeto:
+    5871: [Glaise Cnoc, Cemetery] => 0.2
+  added tags:   ["peer se =~ /Obvious paths: north, northeast, south, northwest/"]
+  image: 'en-cemetery-1264234799.png' is now 'en-cemetery-1617615116.png'
+  image_coords: '[396, 616, 406, 626]' is now '[447, 696, 458, 707]'
+--------------------------------------------------
+5871 [Glaise Cnoc, Cemetery]
+wayto: {"5880"=>StringProc.new("move 'southeast'; if checkpaths == ['se','nw']; move 'southeast'; move 'northeast'; move 'northeast'; move 'northeast'; move 'north'; move 'north'; end"), "5881"=>StringProc.new("move 'northwest'; if checkpaths == ['se']; move 'go arbor'; move 'north'; move 'northeast'; move 'northeast'; move 'northeast'; move 'southeast'; end"), "5870"=>StringProc.new("move 'southeast'; if checkpaths == ['s','nw']; move 'south'; move 'south'; move 'southwest'; move 'southwest'; move 'southwest'; move 'northwest'; end;"), "5872"=>StringProc.new("move 'northwest'; if checkpaths == ['se','nw']; move 'northwest'; move 'southwest'; move 'southwest'; move 'southwest'; move 'go arbor'; move 'south'; end;")} is now {"5880"=>"southeast", "5881"=>"northwest"}
+  removed wayto:
+    5870: [Glaise Cnoc, Cemetery] => StringProc.new("move 'southeast'; if checkpaths == ['s','nw']; move 'south'; move 'south'; move 'southwest'; move 'southwest'; move 'southwest'; move 'northwest'; end;")
+    5872: [Glaise Cnoc, Cemetery] => StringProc.new("move 'northwest'; if checkpaths == ['se','nw']; move 'northwest'; move 'southwest'; move 'southwest'; move 'southwest'; move 'go arbor'; move 'south'; end;")
+timeto: {"5880"=>1.4, "5881"=>1.4, "5870"=>1.4, "5872"=>1.2} is now {"5880"=>0.2, "5881"=>0.2}
+  removed timeto:
+    5870: [Glaise Cnoc, Cemetery] => 1.4
+    5872: [Glaise Cnoc, Cemetery] => 1.2
+  added tags:   ["peer se =~ /Obvious paths: south, northwest/"]
+  image: 'en-cemetery-1264234799.png' is now 'en-cemetery-1617615116.png'
+  image_coords: '[370, 590, 379, 597]' is now '[539, 541, 550, 552]'
+--------------------------------------------------
+5872 [Glaise Cnoc, Cemetery]
+wayto: {"10683"=>"go arbor", "10676"=>"go structure", "5871"=>"southeast"} is now {"10683"=>"go arbor", "10676"=>"go structure", "29576"=>"southeast"}
+  added wayto:
+    29576: [Glaise Cnoc, Cemetery] => "southeast"
+  removed wayto:
+    5871: [Glaise Cnoc, Cemetery] => "southeast"
+timeto: {"10683"=>0.2, "10676"=>0.2, "5871"=>0.2} is now {"10683"=>0.2, "10676"=>0.2, "29576"=>0.2}
+  added timeto:
+    29576: [Glaise Cnoc, Cemetery] => 0.2
+  removed timeto:
+    5871: [Glaise Cnoc, Cemetery] => 0.2
+  image: 'en-cemetery-1264234799.png' is now 'en-cemetery-1617615116.png'
+  image_coords: '[342, 562, 352, 572]' is now '[385, 633, 395, 645]'
+--------------------------------------------------
+5873 [Glaise Cnoc, Cemetery]
+wayto: {"5884"=>StringProc.new("move 'southwest'; if checkpaths.include?('n'); move 'northwest'; move 'northwest'; move 'northwest'; move 'go arbor'; move 'north'; end"), "5874"=>"northeast", "5869"=>StringProc.new("move 'southwest'; unless checkpaths.include?('n'); move 'go arbor'; move 'south'; move 'southeast'; move 'southeast'; move 'southeast'; end")} is now {"5874"=>"northeast", "5869"=>"southwest"}
+  removed wayto:
+    5884: [Glaise Cnoc, Cemetery] => StringProc.new("move 'southwest'; if checkpaths.include?('n'); move 'northwest'; move 'northwest'; move 'northwest'; move 'go arbor'; move 'north'; end")
+timeto: {"5884"=>1.2, "5874"=>0.2, "5869"=>1.2} is now {"5874"=>0.2, "5869"=>0.2}
+  removed timeto:
+    5884: [Glaise Cnoc, Cemetery] => 1.2
+  added tags:   ["peer sw =~ /Obvious paths: north, northeast, south, northwest/"]
+  image: 'en-cemetery-1264234799.png' is now 'en-cemetery-1617615116.png'
+  image_coords: '[449, 614, 457, 624]' is now '[509, 697, 520, 706]'
+--------------------------------------------------
+5874 [Glaise Cnoc, Cemetery]
+wayto: {"5873"=>"southwest", "5875"=>StringProc.new("move 'northeast'; if checkpaths.include?('se'); move 'southeast'; move 'southeast'; move 'southeast'; move 'south'; move 'south'; end"), "5882"=>StringProc.new("move 'northeast'; unless checkpaths.include?('se'); move 'north'; move 'north'; move 'north'; move 'northwest'; move 'northwest'; move 'northwest'; end")} is now {"5873"=>"southwest", "5875"=>"northeast"}
+  removed wayto:
+    5882: [Glaise Cnoc, Cemetery] => StringProc.new("move 'northeast'; unless checkpaths.include?('se'); move 'north'; move 'north'; move 'north'; move 'northwest'; move 'northwest'; move 'northwest'; end")
+timeto: {"5873"=>0.2, "5875"=>1.2, "5882"=>1.4} is now {"5873"=>0.2, "5875"=>0.2}
+  removed timeto:
+    5882: [Glaise Cnoc, Cemetery] => 1.4
+  added tags:   ["peer ne =~ /Obvious paths: north, southwest/"]
+  image: 'en-cemetery-1264234799.png' is now 'en-cemetery-1617615116.png'
+  image_coords: '[476, 590, 482, 598]' is now '[538, 663, 550, 675]'
+--------------------------------------------------
+5882 [Glaise Cnoc, Cemetery]
+wayto: {"5885"=>"south", "5874"=>"southwest", "5890"=>"north", "5881"=>"southeast"} is now {"5885"=>"south", "5890"=>"north", "5881"=>"southeast", "29575"=>"southwest"}
+  added wayto:
+    29575: [Glaise Cnoc, Cemetery] => "southwest"
+  removed wayto:
+    5874: [Glaise Cnoc, Cemetery] => "southwest"
+timeto: {"5885"=>0.2, "5874"=>0.2, "5890"=>0.2, "5881"=>0.2} is now {"5885"=>0.2, "5890"=>0.2, "5881"=>0.2, "29575"=>0.2}
+  added timeto:
+    29575: [Glaise Cnoc, Cemetery] => 0.2
+  removed timeto:
+    5874: [Glaise Cnoc, Cemetery] => 0.2
+  image: 'en-cemetery-1264234799.png' is now 'en-cemetery-1617615116.png'
+  image_coords: '[423, 427, 433, 437]' is now '[478, 482, 489, 491]'
+--------------------------------------------------
+5884 [Glaise Cnoc, Cemetery]
+wayto: {"10683"=>"go arbor", "5873"=>"northeast", "10682"=>"go structure"} is now {"10683"=>"go arbor", "10682"=>"go structure", "29574"=>"northeast"}
+  added wayto:
+    29574: [Glaise Cnoc, Cemetery] => "northeast"
+  removed wayto:
+    5873: [Glaise Cnoc, Cemetery] => "northeast"
+timeto: {"10683"=>0.2, "5873"=>0.2, "10682"=>0.2} is now {"10683"=>0.2, "10682"=>0.2, "29574"=>0.2}
+  added timeto:
+    29574: [Glaise Cnoc, Cemetery] => 0.2
+  removed timeto:
+    5873: [Glaise Cnoc, Cemetery] => 0.2
+  image: 'en-cemetery-1264234799.png' is now 'en-cemetery-1617615116.png'
+  image_coords: '[342, 509, 352, 519]' is now '[385, 572, 397, 584]'
+--------------------------------------------------
+7305 [Graveyard, Tunnel]
+  added description:   ["The hurried construction of the tunnel is apparent here, and the level of the slippery stone walkway changes unevenly and suddenly.  The stone blocks in the walls and floor are fitted together carelessly, allowing water and the roots of trees to enter."]
+--------------------------------------------------
+8476 [Vegetable Garden]
+  removed tags: ["some ephlox moss"]
+--------------------------------------------------
+8495 [Meditation Garden]
+  removed tags: ["some ephlox moss"]
+--------------------------------------------------
+8496 [Garden Bower]
+  removed tags: ["some ephlox moss"]
+--------------------------------------------------
+29548 [Clovertooth Hall, Lockers]
+wayto: {"29534"=>"northwest", "29550"=>"northeast"} is now {"29534"=>"northwest", "29550"=>"northeast", "2485"=>"go curtain"}
+  added wayto:
+    2485: [Clovertooth Hall, Locker Booth] => "go curtain"
+timeto: {"29534"=>0.2, "29550"=>0.2} is now {"29534"=>0.2, "29550"=>0.2, "2485"=>0.2}
+  added timeto:
+    2485: [Clovertooth Hall, Locker Booth] => 0.2
+--------------------------------------------------
+29549 [Clovertooth Hall, Lockers]
+wayto: {"29534"=>"southwest", "29550"=>"southeast"} is now {"29534"=>"southwest", "29550"=>"southeast", "2485"=>"go curtain"}
+  added wayto:
+    2485: [Clovertooth Hall, Locker Booth] => "go curtain"
+timeto: {"29534"=>0.2, "29550"=>0.2} is now {"29534"=>0.2, "29550"=>0.2, "2485"=>0.2}
+  added timeto:
+    2485: [Clovertooth Hall, Locker Booth] => 0.2
+--------------------------------------------------
+29574 [Glaise Cnoc, Cemetery] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=["peer sw =~ /Obvious paths: northeast/"]
+@image_coords=[415, 542, 428, 553]
+@image="en-cemetery-1617615116.png"
+@timeto={"5884"=>0.2, "29575"=>0.2}
+@wayto={"5884"=>"southwest", "29575"=>"northeast"}
+@terrain=nil
+@climate=nil
+@location="the Glaise Cnoc Cemetery"
+@paths=["Obvious paths: northeast, southwest"]
+@description=["Headstones flank both sides of the gravel path here.  Weatherworn, the headstones in this area are obviously older than those which follow the fence enclosing the cemetery.  The gravel path crunches underfoot, but provides an easy route to follow."]
+@title=["[Glaise Cnoc, Cemetery]"]
+@id=29574
+--------------------------------------------------
+29575 [Glaise Cnoc, Cemetery] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=["peer ne =~ /Obvious paths: north, southeast, south, southwest/"]
+@image_coords=[447, 512, 458, 522]
+@image="en-cemetery-1617615116.png"
+@timeto={"5882"=>0.2, "29574"=>0.2}
+@wayto={"5882"=>"northeast", "29574"=>"southwest"}
+@terrain=nil
+@climate=nil
+@location="the Glaise Cnoc Cemetery"
+@paths=["Obvious paths: northeast, southwest"]
+@description=["Sunlight shines down upon a black marble marker, set into the ground amid a meadow of gently swaying flowers.  The marker is worn with age, but the inscription is still legible.  The sweet smell of wildflowers and the hypnotic humming of bees create a seductive setting."]
+@title=["[Glaise Cnoc, Cemetery]"]
+@id=29575
+--------------------------------------------------
+29576 [Glaise Cnoc, Cemetery] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=["peer se =~ /Obvious paths: southeast, northwest/"]
+@image_coords=[416, 665, 428, 675]
+@image="en-cemetery-1617615116.png"
+@timeto={"5870"=>0.2, "5872"=>0.2}
+@wayto={"5870"=>"southeast", "5872"=>"northwest"}
+@terrain=nil
+@climate=nil
+@location="the Glaise Cnoc Cemetery"
+@paths=["Obvious paths: southeast, northwest"]
+@description=["Headstones flank both sides of the gravel path here.  Weatherworn, the headstones in this area are obviously older than those which follow the fence enclosing the cemetery.  The gravel path crunches underfoot, but provides an easy route to follow."]
+@title=["[Glaise Cnoc, Cemetery]"]
+@id=29576
+--------------------------------------------------
+29708 [Graveyard, Tunnel] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Graveyard"
+@paths=["Obvious exits: northeast, southwest"]
+@description=["The hurried construction of the tunnel is apparent here, and the level of the slippery stone walkway changes unevenly and suddenly.  The stone blocks in the walls and floor are fitted together carelessly, allowing water and the roots of trees to enter."]
+@title=["[Graveyard, Tunnel]"]
+@id=29708
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29625
+current map size: 29627
+15 rooms with changes found.
+3 new rooms
+1 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
