@@ -5,7 +5,7 @@
 1) New graphical map for Neartofar and EN Cemetery
 2) Fixed the Cemetery goofy identical rooms
 3) Removed all the check_location calls in Cemetery
-4) Removed 'some basal moss' in 8496, 8495, 8476, 3603, 218 (WL area)
+4) Removed 'some ephlox moss' in 8496, 8495, 8476, 3603, 218 (WL area)
 5) **All** IMT Clovertooth rooms are linked to go in lockers
 6) BUG in game for the eastern room, cannot enter
 7) A blindly-added meta-tag for forage broke a room in WL GY `;mapnav merge 29708 7305`
