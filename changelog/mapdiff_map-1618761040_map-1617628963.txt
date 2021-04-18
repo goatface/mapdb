@@ -1,0 +1,128 @@
+diffing old map-1617628963.json to new map-1618761040.json
+--------------------------------------------------
+10838 [River's Rest, Underbridge]
+wayto: {"10839"=>"east", "10840"=>"go weeds"} is now {"10839"=>"east", "10840"=>"go weeds", "29577"=>"go grasses"}
+  added wayto:
+    29577: [Marshy Bank, Below Building] => "go grasses"
+timeto: {"10839"=>0.2, "10840"=>0.2} is now {"10839"=>0.2, "10840"=>0.2, "29577"=>0.2}
+  added timeto:
+    29577: [Marshy Bank, Below Building] => 0.2
+  image: 'rr-rivers_rest-1266350289.png' is now 'rr-rivers_rest-1618690620.png'
+  image_coords: '[449, 796, 487, 834]' is now '[2342, 1242, 2381, 1281]'
+--------------------------------------------------
+11024 [South River Road]
+wayto: {"11025"=>"east", "11023"=>"southwest"} is now {"11025"=>"east", "11023"=>"southwest", "29578"=>"go rough path"}
+  added wayto:
+    29578: [River Lily, Livery Stable] => "go rough path"
+timeto: {"11025"=>0.2, "11023"=>0.2} is now {"11025"=>0.2, "11023"=>0.2, "29578"=>0.2}
+  added timeto:
+    29578: [River Lily, Livery Stable] => 0.2
+  image: 'rr-rivers_rest-1266350289.png' is now 'rr-rivers_rest-1618690620.png'
+  image_coords: '[567, 899, 577, 909]' is now '[2453, 1566, 2477, 1588]'
+--------------------------------------------------
+11431 [The Stone Eye, Veranda]
+wayto: {"11429"=>"s", "27618"=>"down"} is now {"11429"=>"s", "11432"=>"down"}
+  added wayto:
+    11432: [Floating Dock, Tempest River] => "down"
+  removed wayto:
+    27618: [Floating Dock, Tempest River] => "down"
+timeto: {"11429"=>0.2, "27618"=>0.2} is now {"11429"=>0.2, "11432"=>0.2}
+  added timeto:
+    11432: [Floating Dock, Tempest River] => 0.2
+  removed timeto:
+    27618: [Floating Dock, Tempest River] => 0.2
+  image: 'rr-rivers_rest-1266350289.png' is now 'rr-rivers_rest-1618690620.png'
+  image_coords: '[219, 106, 229, 116]' is now '[1980, 326, 2000, 348]'
+--------------------------------------------------
+11432 [Floating Dock, Tempest River]
+  added description:   ["A massive dock stretches far out over the river's surface, complete with large support columns at regular intervals, several slips for boats of various sizes, and a series of steps leading towards the swiftly flowing river.  A large warehouse sits adjacent to the slips, and a ramp leads up to the Stone Eye veranda."]
+  location: '' is now 'Maelstrom Bay'
+  image: 'rr-rivers_rest-1266350289.png' is now 'rr-rivers_rest-1618690620.png'
+  image_coords: '[192, 134, 202, 144]' is now '[1933, 371, 1957, 393]'
+--------------------------------------------------
+11433 [Tempest River, North Fork]
+wayto: {"11435"=>StringProc.new("if checkspell(112) then move 'west' else move 'swim west' end; waitrt?"), "11432"=>StringProc.new("move 'climb dock'\nfill_hands"), "27388"=>StringProc.new("move 'climb dock'\nfill_hands")} is now {"11435"=>StringProc.new("if checkspell(112) then move 'west' else move 'swim west' end; waitrt?"), "11432"=>StringProc.new("move 'climb dock'\nfill_hands")}
+  removed wayto:
+    27388: [Floating Dock, Tempest River] => StringProc.new("move 'climb dock'\nfill_hands")
+timeto: {"11435"=>2.0, "11432"=>0.2, "27388"=>0.2} is now {"11435"=>2.0, "11432"=>0.2}
+  removed timeto:
+    27388: [Floating Dock, Tempest River] => 0.2
+--------------------------------------------------
+23208 [Timor's, House Annex Hallway]
+timeto: {"23206"=>0.2, "23207"=>0.2, "17682"=>0.2} is now {"23206"=>0.2, "23207"=>0.2, "17682"=>3.0}
+  image: '' is now 'rr-rivers_rest-1618690620.png'
+  image_coords: '' is now '[1072, 1082, 1111, 1122]'
+--------------------------------------------------
+27618 [Floating Dock, Tempest River] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[192, 133, 200, 143]
+@image="rr-rivers_rest-1266350289.png"
+@timeto={"11431"=>0.2, "11433"=>0.2}
+@wayto={"11431"=>"up", "11433"=>"leap"}
+@terrain=nil
+@climate=nil
+@location="Maelstrom Bay"
+@paths=["Obvious paths: up"]
+@description=["A massive dock stretches far out over the river's surface, complete with large support columns at regular intervals, several slips for boats of various sizes, and a series of steps leading towards the swiftly flowing river.  A large warehouse sits adjacent to the slips, and a ramp leads up to the Stone Eye veranda."]
+@title=["[Floating Dock, Tempest River]"]
+@id=27618
+--------------------------------------------------
+29577 [Marshy Bank, Below Building] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[2125, 1241, 2163, 1279]
+@image="rr-rivers_rest-1618690620.png"
+@timeto={"10838"=>0.2}
+@wayto={"10838"=>"go grasses"}
+@terrain=nil
+@climate=nil
+@location="the town of River's Rest"
+@paths=["Obvious paths: none"]
+@description=["The air is cool here.  The floor of a building overhead, supported by a dozen tall, barnacle-coated pilings, blocks out the sun.  The brackish water of the Tempest River flows sluggishly here.  The only sound is the quiet passing of the water through the thick tall river grasses lining the bank.", "The night air is cool here.  The floor of a building overhead, supported by a dozen tall, barnacle-coated pilings, blocks out the light of the moon.  The brackish water of the Tempest River flows sluggishly here.  The only sound is the quiet passing of the water through the thick tall river grasses lining the bank."]
+@title=["[Marshy Bank, Below Building]"]
+@id=29577
+--------------------------------------------------
+29578 [River Lily, Livery Stable] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[2454, 1495, 2476, 1517]
+@image="rr-rivers_rest-1618690620.png"
+@timeto={"11024"=>0.2}
+@wayto={"11024"=>"out"}
+@terrain=nil
+@climate=nil
+@location="River's Rest"
+@paths=["Obvious paths: out"]
+@description=["As the path progresses, the carpet of grass at its borders lengthens from a short shear to a lush, thick pile where its conveyance ends at a wrought iron gate.  The verdure rises in full sprays at the base of each post of an age-darkened split rail fence that encloses a livery yard.  Beyond the barrier stands a rustic dark green stable with high, arched roofing and dark green walls that blend with the verdant surroundings."]
+@title=["[River Lily, Livery Stable]"]
+@id=29578
+--------------------------------------------------
+29579 [River Tunnels, Ancient Altar] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[3721, 930, 3758, 966]
+@image="rr-rivers_rest-1618690620.png"
+@timeto={"11141"=>0.2}
+@wayto={"11141"=>"go green barrier"}
+@terrain=nil
+@climate=nil
+@location="the Citadel"
+@paths=["Obvious exits: none"]
+@description=["Having made it past the barrier guarding this room, you are treated to the sight of an ancient altar that dominates most of the available space here.  The magic of the barrier appears to have kept this room completely dry, as is evidenced by the musty, ancient smell of the air that has been trapped here for centuries.  You feel a bit unsettled here, as if someone is lurking in the shadows ready to strike at your back at any moment."]
+@title=["[River Tunnels, Ancient Altar]"]
+@id=29579
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29627
+current map size: 29629
+6 rooms with changes found.
+3 new rooms
+1 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
