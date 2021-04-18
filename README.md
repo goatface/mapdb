@@ -1,6 +1,10 @@
 # mapdb
 **Kaldonis-moderated mapdb reviewed by bona fide map editors.**
 
+## 18 April 2021 - New River's Rest / Warren map
+1) Entirely re-hauled graphical map of RR, proper geography
+2) Stables, Huntress's Shrine, Marshy Bank added
+
 ## 5 April 2021 - Neartofar and EN Cemetery, et al.
 1) New graphical map for Neartofar and EN Cemetery
 2) Fixed the Cemetery goofy identical rooms
