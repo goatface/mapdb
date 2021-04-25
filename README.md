@@ -1,6 +1,18 @@
 # mapdb
 **Kaldonis-moderated mapdb reviewed by bona fide map editors.**
 
+## 25 April 2021 - Lots of small tweaks
+1) 264 Wehnimer's, Dagmar Lane (merged)
+2) 724 Ta'Illistim, Aaendarein Gaer (merged)
+3) 2388 Lager Street, Cul-de-sac updated
+4) 3207 Snowflake Vale, Clearing "small path" avoids warcamps
+5) 9595 Czeroth Caverns, Tunnel wayto new kiramon in Zul
+6) 9607 Czeroth Caverns, Great Cavern merged
+7) One room in Czeroth Caverns was floating in ;narost
+8) 20887 Monsoon Jungle, Hillside Path merged
+9) 20900 Monsoon Jungle, Canopy Approach merged
+
+
 ## 18 April 2021 - New River's Rest / Warren map
 1) Entirely re-hauled graphical map of RR, proper geography
 2) Stables, Huntress's Shrine, Marshy Bank added

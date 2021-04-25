@@ -1,0 +1,139 @@
+diffing old map-1618769937.dat to new map-1619304270.dat
+--------------------------------------------------
+264 [Wehnimer's, Dagmar Lane]
+  added description:   ["This long, narrow dirt road presses between several buildings, connecting one of the quieter corners of this part of town with the main thoroughfares, where small residences and humble shops give way to the larger emporia, offices and grander structures.  A heavy iron-banded door has been set into a high wall of the town barracks."]
+wayto: {"8868"=>"go gate", "263"=>"south", "265"=>"north"} is now {"8868"=>"go gate", "263"=>"south", "265"=>"north", "28237"=>"go door"}
+  added wayto:
+    28237: [Town Barracks, Storage Hall] => "go door"
+timeto: {"8868"=>0.2, "263"=>0.2, "265"=>0.2} is now {"8868"=>0.2, "263"=>0.2, "265"=>0.2, "28237"=>0.2}
+  added timeto:
+    28237: [Town Barracks, Storage Hall] => 0.2
+--------------------------------------------------
+724 [Ta'Illistim, Aaendarein Gaer]
+  added description:   ["Meandering along the edge of the cliffs, the gaer provides secure footing despite its narrowness.  Set just off the pathway is a three-sided glaes scholar statue.  Bits of shrubbery have grown up about the figure encircling its form.  The view is magnificent, covering the Gyldemar Forest to the east all the way to the Black Forest far southward."]
+--------------------------------------------------
+2388 [Lager Street, Cul-de-sac]
+titles: ["[Lager Street, Cul-de-sac]"] is now ["[Lager Street, Cul-de-sac]", "[Lager Road, Cul-de-Sac]"]
+--------------------------------------------------
+3207 [Snowflake Vale, Clearing]
+wayto: {"3211"=>"west", "3205"=>"go path", "3208"=>"east"} is now {"3211"=>"west", "3205"=>"go small path", "3208"=>"east"}
+--------------------------------------------------
+9595 [Czeroth Caverns, Tunnel]
+wayto: {"9594"=>"northeast", "9596"=>"southeast"} is now {"9594"=>"northeast", "9596"=>"southeast", "29492"=>"down"}
+  added wayto:
+    29492: [Czeroth Labyrinth, Tunnel] => "down"
+timeto: {"9594"=>0.2, "9596"=>0.2} is now {"9594"=>0.2, "9596"=>0.2, "29492"=>0.2}
+  added timeto:
+    29492: [Czeroth Labyrinth, Tunnel] => 0.2
+--------------------------------------------------
+9607 [Czeroth Caverns, Great Cavern]
+wayto: {"9604"=>"northwest", "9606"=>"southwest", "9609"=>"go pool"} is now {"9604"=>"northwest", "9606"=>"southwest", "9609"=>"go pool", "29471"=>"go crevice"}
+  added wayto:
+    29471: [Czeroth Labyrinth, Cavity] => "go crevice"
+timeto: {"9604"=>0.2, "9606"=>0.2, "9609"=>0.2} is now {"9604"=>0.2, "9606"=>0.2, "9609"=>0.2, "29471"=>0.2}
+  added timeto:
+    29471: [Czeroth Labyrinth, Cavity] => 0.2
+--------------------------------------------------
+20887 [Monsoon Jungle, Hillside Path]
+  added description:   ["Above the planks of a swollen and broken fence, a swarm of black flies hovers in the air.  A small cleared space develops into a muddy path leading upward, its track washed with pebbled gravel and littered with large green leaves.  The fence itself stretches on toward the south."]
+--------------------------------------------------
+20900 [Monsoon Jungle, Canopy Approach]
+  added description:   ["The onset of the jungle wilderness is sudden, making the nearby existence of civilization seem a fantastical concept.  Green dominates the entirety of the rainforest setting, with a thick leaf canopy formed by the verdant growth of tall trees filtering any light into that color as well.  The drone of insects provides a subtle natural music, low and buzzing.  In the distance, a haze of fog nearly obscures the view of the coast."]
+--------------------------------------------------
+28237 [Town Barracks, Storage Hall]
+wayto: {"28238"=>"go door", "28232"=>"north"} is now {"28232"=>"north", "264"=>"go door"}
+  added wayto:
+    264: [Wehnimer's, Dagmar Lane] => "go door"
+  removed wayto:
+    28238: [Wehnimer's, Dagmar Lane] => "go door"
+timeto: {"28238"=>0.2, "28232"=>0.2} is now {"28232"=>0.2, "264"=>0.2}
+  added timeto:
+    264: [Wehnimer's, Dagmar Lane] => 0.2
+  removed timeto:
+    28238: [Wehnimer's, Dagmar Lane] => 0.2
+--------------------------------------------------
+28238 [Wehnimer's, Dagmar Lane] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={"28237"=>0.2}
+@wayto={"28237"=>"go door"}
+@terrain=nil
+@climate=nil
+@location="the town of Wehnimer's Landing"
+@paths=["Obvious paths: north, south"]
+@description=["This long, narrow dirt road presses between several buildings, connecting one of the quieter corners of this part of town with the main thoroughfares, where small residences and humble shops give way to the larger emporia, offices and grander structures.  A heavy iron-banded door has been set into a high wall of the town barracks."]
+@title=["[Wehnimer's, Dagmar Lane]"]
+@id=28238
+--------------------------------------------------
+29470 [Czeroth Caverns, Great Cavern] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[1295, 312, 1303, 317]
+@image="en-zul_logoth-1264234799.png"
+@timeto={"29471"=>0.2, "9609"=>0.2, "9604"=>0.2, "9606"=>0.2}
+@wayto={"29471"=>"go crevice", "9609"=>"go pool", "9604"=>"northwest", "9606"=>"southwest"}
+@terrain=nil
+@climate=nil
+@location="the Czeroth Caverns"
+@paths=["Obvious exits: southwest, northwest"]
+@description=["The roof of the cavern dips here and shining crystals of gypsum are visible in hundreds of cracks and crevices.  A pile of limestone and gypsum on the floor lays beside an eastern crevice."]
+@title=["[Czeroth Caverns, Great Cavern]"]
+@id=29470
+--------------------------------------------------
+29471 [Czeroth Labyrinth, Cavity]
+wayto: {"29470"=>"go crevice", "29472"=>"northeast"} is now {"29472"=>"northeast", "9607"=>"go crevice"}
+  added wayto:
+    9607: [Czeroth Caverns, Great Cavern] => "go crevice"
+  removed wayto:
+    29470: [Czeroth Caverns, Great Cavern] => "go crevice"
+timeto: {"29470"=>0.2, "29472"=>0.2} is now {"29472"=>0.2, "9607"=>0.2}
+  added timeto:
+    9607: [Czeroth Caverns, Great Cavern] => 0.2
+  removed timeto:
+    29470: [Czeroth Caverns, Great Cavern] => 0.2
+--------------------------------------------------
+29697 [Monsoon Jungle, Canopy Approach] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Monsoon Jungle"
+@paths=["Obvious paths: east, southeast, down"]
+@description=["The onset of the jungle wilderness is sudden, making the nearby existence of civilization seem a fantastical concept.  Green dominates the entirety of the rainforest setting, with a thick leaf canopy formed by the verdant growth of tall trees filtering any light into that color as well.  The drone of insects provides a subtle natural music, low and buzzing.  In the distance, a haze of fog nearly obscures the view of the coast."]
+@title=["[Monsoon Jungle, Canopy Approach]"]
+@id=29697
+--------------------------------------------------
+29698 [Monsoon Jungle, Hillside Path] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Monsoon Jungle"
+@paths=["Obvious paths: up"]
+@description=["Above the planks of a swollen and broken fence, a swarm of black flies hovers in the air.  A small cleared space develops into a muddy path leading upward, its track washed with pebbled gravel and littered with large green leaves.  The fence itself stretches on toward the south."]
+@title=["[Monsoon Jungle, Hillside Path]"]
+@id=29698
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29629
+current map size: 29625
+10 rooms with changes found.
+0 new rooms
+4 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
