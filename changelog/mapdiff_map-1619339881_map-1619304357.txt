@@ -1,0 +1,506 @@
+diffing old map-1619304357.json to new map-1619339881.json
+--------------------------------------------------
+3302 [Ice Plains, Shrine]
+  added description:   ["The room is lit by a dozen torches, and a marble dais is set at the end of the chamber atop a stone altar.  The dais has gold and platinum inlays along the top with veins of silver twisted down the supports of the base.  Several stools are arranged in rows in front of the altar, with a path large enough to walk down the center of the room to the altar.  Behind the dais is a dark alcove with a life-sized statue of Amasalen, servant of Luukos."]
+--------------------------------------------------
+5207 [Vornavian Coast, Beached Hulk]
+wayto: {"5206"=>"go tear", "5232"=>"go south", "5233"=>"southwest", "5234"=>"west", "29704"=>"go southwest"} is now {"5206"=>"go tear", "5232"=>"go south", "5233"=>"go southwest", "5234"=>"west"}
+  removed wayto:
+    29704: [Vornavian Coast, Beached Hulk] => "go southwest"
+timeto: {"5206"=>0.2, "5232"=>0.2, "5233"=>0.2, "5234"=>0.2, "29704"=>0.2} is now {"5206"=>0.2, "5232"=>0.2, "5233"=>0.2, "5234"=>0.2}
+  removed timeto:
+    29704: [Vornavian Coast, Beached Hulk] => 0.2
+--------------------------------------------------
+5233 [Vornavian Coast, Beached Hulk]
+  added description:   ["The hold continues to the northeast to the bow and southwest to the aft from here.  Light pours in through a burned hole in the deck above about the size of a small wagon.  Cinders and seagull dung have collected on the floor directly under the hole.  An arch opens to the west, and the shattered remains of a broken door hang tenuously on failing hinges to the south."]
+--------------------------------------------------
+5286 [Vornavian Coast, The Hills]
+  added description:   ["The path is passable to the southwest, but is blocked to the northeast by a jumble of boulders and shattered stone.  The stone has fallen from the high walls on either side of the path, broken loose by years of erosion.  Lizards climb amongst the fallen rocks, making their way to the top to sun themselves."]
+--------------------------------------------------
+5582 [Vornavis Caravansary, Beast Pen]
+  added description:   ["A beast pen of rusted wrought iron bars, each set with 6-inch spikes and curving in at the top to end in a spearpoint, stands in the northwest corner of the caravansary."]
+--------------------------------------------------
+5732 [Marshtown, Shoreline]
+  added description:   ["The boardwalk widens at this point to a circular-shaped gathering area, almost a town square.  Many folks loiter about on the docks or on wooden benches, watching the ships and sailors at their work.  To the northwest sits a chandler's shop, the center of most of the commotion in the area.  Supplies are brought in and out of the building almost constantly."]
+--------------------------------------------------
+9410 [Zul Logoth, Crystalline Cavern]
+wayto: {"9472"=>"go arch", "9407"=>"west", "1003"=>"southeast", "1004"=>"south", "9411"=>"north", "3668"=>StringProc.new("UserVars.mapdb_fwi_return_room = Room.current.id;worn = !GameObj[UserVars.mapdb_fwi_trinket].nil?;unless worn;  fput 'get my ' + UserVars.mapdb_fwi_trinket ;  ttl = Time.now + 5;  wait_while do Time.now < ttl and GameObj[UserVars.mapdb_fwi_trinket].nil? end;  fail \"could not find your teleporter\" if GameObj[UserVars.mapdb_fwi_trinket].nil?;end;fput 'turn #' + GameObj[UserVars.mapdb_fwi_trinket].id;unless worn then fput 'stow my ' + UserVars.mapdb_fwi_trinket end;pause 0.5;$go2_restart=true"), "29632"=>"go arch"} is now {"9472"=>"go arch", "9407"=>"west", "1003"=>"southeast", "1004"=>"south", "9411"=>"north", "3668"=>StringProc.new("UserVars.mapdb_fwi_return_room = Room.current.id;worn = !GameObj[UserVars.mapdb_fwi_trinket].nil?;unless worn;  fput 'get my ' + UserVars.mapdb_fwi_trinket ;  ttl = Time.now + 5;  wait_while do Time.now < ttl and GameObj[UserVars.mapdb_fwi_trinket].nil? end;  fail \"could not find your teleporter\" if GameObj[UserVars.mapdb_fwi_trinket].nil?;end;fput 'turn #' + GameObj[UserVars.mapdb_fwi_trinket].id;unless worn then fput 'stow my ' + UserVars.mapdb_fwi_trinket end;pause 0.5;$go2_restart=true")}
+  removed wayto:
+    29632: [Bank of Zul Logoth] => "go arch"
+timeto: {"9472"=>0.2, "9407"=>0.2, "1003"=>0.2, "1004"=>0.2, "9411"=>0.2, "3668"=>StringProc.new("if (!UserVars.mapdb_fwi_trinket.nil? and !UserVars.mapdb_fwi_trinket.empty?); 2.0;else;nil;end;"), "29632"=>0.2} is now {"9472"=>0.2, "9407"=>0.2, "1003"=>0.2, "1004"=>0.2, "9411"=>0.2, "3668"=>StringProc.new("if (!UserVars.mapdb_fwi_trinket.nil? and !UserVars.mapdb_fwi_trinket.empty?); 2.0;else;nil;end;")}
+  removed timeto:
+    29632: [Bank of Zul Logoth] => 0.2
+--------------------------------------------------
+9472 [Bank of Zul Logoth]
+  added description:   ["Two heavily barred windows set just above a small marble ledge are the only items of real interest in this barren yet elegant lobby.  The walls, ceiling and floor, though, speak of a wealth of silvers that have enriched the owners of the establishment.  Two dwarves mill about behind the windows, counting coins, writing notes, and conducting the customary bank business.  A gilded sign, affixed to the wall between the two windows, gives information on the use of the bank's services."]
+wayto: {"9473"=>"go arch", "9410"=>"out"} is now {"9473"=>"go arch", "9410"=>"out", "29682"=>"go alcove"}
+  added wayto:
+    29682: [Bank of Zul Logoth, Exchequer] => "go alcove"
+timeto: {"9473"=>0.2, "9410"=>0.2} is now {"9473"=>0.2, "9410"=>0.2, "29682"=>0.2}
+  added timeto:
+    29682: [Bank of Zul Logoth, Exchequer] => 0.2
+--------------------------------------------------
+9473 [Bank of Zul Logoth, Exchange]
+wayto: {"9472"=>"out", "29632"=>"out"} is now {"9472"=>"out"}
+  removed wayto:
+    29632: [Bank of Zul Logoth] => "out"
+timeto: {"9472"=>0.2, "29632"=>0.2} is now {"9472"=>0.2}
+  removed timeto:
+    29632: [Bank of Zul Logoth] => 0.2
+--------------------------------------------------
+12580 [Volcanic Slope, Abyss]
+wayto: {"12579"=>"southwest", "29048"=>StringProc.new("cur_stance = checkstance;empty_hands;fput('stance offensive') if cur_stance != 'offensive';move('climb rockslide');fill_hands;fput('stance ' + cur_stance) if cur_stance != 'offensive';$go2_restart = true"), "29709"=>StringProc.new("cur_stance = checkstance;empty_hands;fput('stance offensive') if cur_stance != 'offensive';move('climb rockslide');fill_hands;fput('stance ' + cur_stance) if cur_stance != 'offensive';$go2_restart = true")} is now {"12579"=>"southwest", "29048"=>StringProc.new("cur_stance = checkstance;empty_hands;fput('stance offensive') if cur_stance != 'offensive';move('climb rockslide');fill_hands;fput('stance ' + cur_stance) if cur_stance != 'offensive';$go2_restart = true")}
+  removed wayto:
+    29709: [Basalt Cliff, Approach] => StringProc.new("cur_stance = checkstance;empty_hands;fput('stance offensive') if cur_stance != 'offensive';move('climb rockslide');fill_hands;fput('stance ' + cur_stance) if cur_stance != 'offensive';$go2_restart = true")
+timeto: {"12579"=>0.2, "29048"=>0.2, "29709"=>2.0} is now {"12579"=>0.2, "29048"=>2.0}
+  removed timeto:
+    29709: [Basalt Cliff, Approach] => 2.0
+--------------------------------------------------
+20905 [Monsoon Jungle, Banyan Base]
+  added description:   ["Clusters of bright fungus dot the soft ground surrounding an enormous banyan.  The huge lattice-work trunk creates numerous hollows and nooks.  Sparse clumps of vegetation creep about the base of the tree in a feeble attempt to thrive.  To the north, a group of lichen-covered boulders rise from the earth in a pyramid-like shape."]
+--------------------------------------------------
+20911 [Monsoon Jungle, Stepped Valley]
+  added description:   ["A sea of tall grasses wilts in the hot, humid air.  North and south, the jungle rises upon an upland ridge, far too steep and straight to climb.  This valley appears the result of an ancient cirque, likely formed as over time the elements of nature restructured the mountains beyond.  A step-like series of ledges grant access to the northwestern highlands, while the vegetation clears somewhat to the southeast, revealing the shallows of a saltwater river."]
+--------------------------------------------------
+20912 [Monsoon Jungle, Shallows]
+  added description:   ["Beds of aquatic grasses contribute to the lush surroundings of these saltwater shallows.  Creatures adapted to the watery habitat pursue the natural order of their lives, resulting in an environment not without hazards for land-based interlopers, even at the water's ebb line.  A steep drop-off in terrain marks a descent into the depths of a separate freshwater river.  Crossing this second watercourse is only possible via a climb up some snarled banyan roots to access higher ground on the opposite shore."]
+--------------------------------------------------
+20929 [Monsoon Jungle, Interior]
+  added description:   ["Partially covered, the trunk of a thick rosewood tree peeks out from the choking embrace of young banyan roots.  Sturdy liana vines twine about several other trees, reaching for the rich canopy above.  Scrubby bushes rise up at irregular intervals, locking the hot, decaying air down below the dense cover.  Clusters of fungus dot the forest floor."]
+--------------------------------------------------
+20935 [Monsoon Jungle, Sandbar]
+  added description:   ["At this point, the mist is thinned sufficiently by ocean breezes to allow for a bit of a sea view to become visible, but even so the sight-diffusing vapors float just above the breakers not far from shore.  The eastern bank of the sandbar, as a raised promontory, offers access to the initial depths of the waters below without the separation of any sort of natural shallows."]
+--------------------------------------------------
+20936 [Monsoon Jungle, Sandbar]
+  added description:   ["The northern shore, the lowest point on the sandbar, accesses the sea via wave-washed shallows.  Coastal waters brim with a multitude of smaller marine life.  Salty breezes coming off the water cool the temperature to a less uncomfortable level than those potentially in the jungle or the valley, despite the density of the island mist.  The unusual dark sand of the entire area is soft and moist underfoot."]
+--------------------------------------------------
+20940 [Monsoon Jungle, Ceiba Glade]
+  added description:   ["Rising in majestic splendor, a huge ceiba tree towers over the river.  Its trunk is quite wide, anchoring into the ground with low, buttressed roots.  Vibrant white and pink flowers bloom in the canopy, attracting birds and insects with their color and fragrance.  The fresh scent of sea air drifts in from the east, giving evidence of the ocean beyond the jungle."]
+--------------------------------------------------
+20944 [Monsoon Jungle, Cliffside]
+  added description:   ["Thick vegetation grows right up to the sheer cliffs that separate the jungle from the ocean.  Rich salt air drifts down from the heights above, and the crashing of waves echoes from the sea beyond.  Several tall durian trees rise up above the jungle, the faintly lingering, faintly sulphuric, scent of their fruit mingling with the coastal brine."]
+--------------------------------------------------
+20952 [Monsoon Jungle, Highlands]
+  added description:   ["Raised above the level of the rest of the valley, the plateau is a haven for huge ferns and even a few of the larger jungle trees.  From this vantage point, a section of coastal cliff is plainly visible in the distance.  One fallen tree trunk forms a bridge of sorts to a small ridge in those cliffs.  To the south, the sloping sides of the tableland provide a natural descent to the floor of the cirque below."]
+--------------------------------------------------
+20953 [Monsoon Jungle, Cliffside]
+  added description:   ["Rocky terrain replaces the verdant jungle upon this lonely seaside cliff.  Meandering saltwater breezes escalate to dangerous winds, whipping around the point with unbridled ferocity.  Steep and treacherous to the casual climber, the ridge offers no easily accessible route to the higher cliffs above or to the sea beyond.  To the southwest, a fallen tree trunk extends a welcome, if haphazard, connection to a plateau planted squarely within the landscape of the stepped valley."]
+--------------------------------------------------
+24898 [Iyo Village, Fire Pit]
+  added description:   ["Scattered in all directions, open-faced huts surround this central clearing, which obviously serves as a gathering spot that is not completely choked with foliage and growth.  A large fire pit dominates the area, charred wood composing its innards.  Several long lines of blood red dirt radiate outward from the fire pit to the edge of the area.  Through the green ferns and tall jungle trees, the low clicks and whispering of hidden villagers is audible, and thin shafts of moonlight stream through from above."]
+--------------------------------------------------
+24907 [Iyo Village, Fern Outskirts]
+  added description:   ["Crowded around a muddy path, thin and tall trees rise up through of layers of ferns and into the overhead cover of thick vines and greenery.  Stray beams of moonlight permeate the cover, allowing filtered light to soak the jungle growth with life.  Laden with humidity, the air is alive with the sounds of insects, birds, and the occasional clicking of voices coming from beyond the nearby open-faced hut."]
+--------------------------------------------------
+24917 [Iyo Village, Aracari's View]
+  added description:   ["Quiet rustling emanates from the trumpet tree's branches overhead.  Green jungle closes in from all sides, save for the cleared area to one direction, where an open-faced hut is readily visible.  Rough, muddy paths of scattered footprints lead in several directions, and humidity sits in the air, obviously a comfortable friend of the jungle."]
+--------------------------------------------------
+24921 [Iyo Village, Mossy Outskirts]
+  added description:   ["The jungle here is cleared away slightly, allowing for several shafts of moonlight to hit the muddy path.  Tufts of moss float just overhead, their loose lengths trailing down, though they fail to obscure the small hut in one direction.  Several large blooms of pink spring up around the base of one particularly thick and twisted twin-leaved rose tamarind covered in a mass of crawling red ants."]
+--------------------------------------------------
+24933 [Iyo Village, Blackened Clearing]
+  added description:   ["With all loose brush pushed to the side, the small clearing is host to a tall metal stake that protrudes from the ground.  The stake itself is blackened, and the ground around it is charred a dark black color, where the grains of dirt have melted together in places.  Encircling this configuration is a ring of bright white sand, illuminated to a near glow by shafts of moonlight that slice down through the night.  Off to one side, a hut with dark walls is just barely visible in the shadows."]
+--------------------------------------------------
+24940 [Iyo Village, Circle]
+  added description:   ["Amidst the humidity, moonlight streams down here due to a partial break overhead in foliage.  The ambient light lends extra warmth to the path where the mud is almost entirely dried up into caked dirt.  In one direction, the path leads directly to one of several open-faced huts, while footprints lead to a larger clearing on the other side."]
+--------------------------------------------------
+29048 [Basalt Cliff, Approach]
+  added description:   ["This long barren slope of the volcano rises above the island, surrounded by a deep blue ocean.  The terrain is rocky and devoid of plant life, with the occasional boulder standing sentinel along the arduous climb.  Grooves in the earth from rainwater and lava flows branch out down the slope to meet the vegetation at the edge of the jungle below."]
+--------------------------------------------------
+29165 [Basalt Cliff, Base]
+wayto: {"29048"=>"south", "29166"=>"up", "29709"=>"go south"} is now {"29048"=>"go south", "29166"=>"up"}
+  removed wayto:
+    29709: [Basalt Cliff, Approach] => "go south"
+timeto: {"29048"=>0.2, "29166"=>0.2, "29709"=>0.2} is now {"29048"=>0.2, "29166"=>0.2}
+  removed timeto:
+    29709: [Basalt Cliff, Approach] => 0.2
+--------------------------------------------------
+29632 [Bank of Zul Logoth] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={"9473"=>0.2, "29682"=>0.2, "9410"=>0.2}
+@wayto={"9473"=>"go arch", "29682"=>"go alcove", "9410"=>"out"}
+@terrain=nil
+@climate=nil
+@location="Zul Logoth"
+@paths=["Obvious exits: out"]
+@description=["Two heavily barred windows set just above a small marble ledge are the only items of real interest in this barren yet elegant lobby.  The walls, ceiling and floor, though, speak of a wealth of silvers that have enriched the owners of the establishment.  Two dwarves mill about behind the windows, counting coins, writing notes, and conducting the customary bank business.  A gilded sign, affixed to the wall between the two windows, gives information on the use of the bank's services."]
+@title=["[Bank of Zul Logoth]"]
+@id=29632
+--------------------------------------------------
+29682 [Bank of Zul Logoth, Exchequer]
+wayto: {"29632"=>"out"} is now {"9472"=>"out"}
+  added wayto:
+    9472: [Bank of Zul Logoth] => "out"
+  removed wayto:
+    29632: [Bank of Zul Logoth] => "out"
+timeto: {"29632"=>0.2} is now {"9472"=>0.2}
+  added timeto:
+    9472: [Bank of Zul Logoth] => 0.2
+  removed timeto:
+    29632: [Bank of Zul Logoth] => 0.2
+--------------------------------------------------
+29683 [Iyo Village, Fern Outskirts] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Shimmering Mists"
+@paths=["Obvious paths: northeast, southeast, southwest, northwest"]
+@description=["Crowded around a muddy path, thin and tall trees rise up through of layers of ferns and into the overhead cover of thick vines and greenery.  Stray beams of moonlight permeate the cover, allowing filtered light to soak the jungle growth with life.  Laden with humidity, the air is alive with the sounds of insects, birds, and the occasional clicking of voices coming from beyond the nearby open-faced hut."]
+@title=["[Iyo Village, Fern Outskirts]"]
+@id=29683
+--------------------------------------------------
+29684 [Iyo Village, Mossy Outskirts] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Shimmering Mists"
+@paths=["Obvious paths: northeast, southeast, southwest, northwest"]
+@description=["The jungle here is cleared away slightly, allowing for several shafts of moonlight to hit the muddy path.  Tufts of moss float just overhead, their loose lengths trailing down, though they fail to obscure the small hut in one direction.  Several large blooms of pink spring up around the base of one particularly thick and twisted twin-leaved rose tamarind covered in a mass of crawling red ants."]
+@title=["[Iyo Village, Mossy Outskirts]"]
+@id=29684
+--------------------------------------------------
+29685 [Iyo Village, Aracari's View] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Shimmering Mists"
+@paths=["Obvious paths: northeast, southeast, southwest, northwest"]
+@description=["Quiet rustling emanates from the trumpet tree's branches overhead.  Green jungle closes in from all sides, save for the cleared area to one direction, where an open-faced hut is readily visible.  Rough, muddy paths of scattered footprints lead in several directions, and humidity sits in the air, obviously a comfortable friend of the jungle."]
+@title=["[Iyo Village, Aracari's View]"]
+@id=29685
+--------------------------------------------------
+29686 [Iyo Village, Fire Pit] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Shimmering Mists"
+@paths=["Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"]
+@description=["Scattered in all directions, open-faced huts surround this central clearing, which obviously serves as a gathering spot that is not completely choked with foliage and growth.  A large fire pit dominates the area, charred wood composing its innards.  Several long lines of blood red dirt radiate outward from the fire pit to the edge of the area.  Through the green ferns and tall jungle trees, the low clicks and whispering of hidden villagers is audible, and thin shafts of moonlight stream through from above."]
+@title=["[Iyo Village, Fire Pit]"]
+@id=29686
+--------------------------------------------------
+29687 [Iyo Village, Blackened Clearing] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Shimmering Mists"
+@paths=["Obvious paths: none"]
+@description=["With all loose brush pushed to the side, the small clearing is host to a tall metal stake that protrudes from the ground.  The stake itself is blackened, and the ground around it is charred a dark black color, where the grains of dirt have melted together in places.  Encircling this configuration is a ring of bright white sand, illuminated to a near glow by shafts of moonlight that slice down through the night.  Off to one side, a hut with dark walls is just barely visible in the shadows."]
+@title=["[Iyo Village, Blackened Clearing]"]
+@id=29687
+--------------------------------------------------
+29688 [Iyo Village, Circle] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Shimmering Mists"
+@paths=["Obvious paths: northeast, northwest"]
+@description=["Amidst the humidity, moonlight streams down here due to a partial break overhead in foliage.  The ambient light lends extra warmth to the path where the mud is almost entirely dried up into caked dirt.  In one direction, the path leads directly to one of several open-faced huts, while footprints lead to a larger clearing on the other side."]
+@title=["[Iyo Village, Circle]"]
+@id=29688
+--------------------------------------------------
+29689 [Monsoon Jungle, Banyan Base] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Monsoon Jungle"
+@paths=["Obvious paths: northeast, southeast, south, northwest"]
+@description=["Clusters of bright fungus dot the soft ground surrounding an enormous banyan.  The huge lattice-work trunk creates numerous hollows and nooks.  Sparse clumps of vegetation creep about the base of the tree in a feeble attempt to thrive.  To the north, a group of lichen-covered boulders rise from the earth in a pyramid-like shape."]
+@title=["[Monsoon Jungle, Banyan Base]"]
+@id=29689
+--------------------------------------------------
+29690 [Monsoon Jungle, Interior] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Monsoon Jungle"
+@paths=["Obvious paths: north, south"]
+@description=["Partially covered, the trunk of a thick rosewood tree peeks out from the choking embrace of young banyan roots.  Sturdy liana vines twine about several other trees, reaching for the rich canopy above.  Scrubby bushes rise up at irregular intervals, locking the hot, decaying air down below the dense cover.  Clusters of fungus dot the forest floor."]
+@title=["[Monsoon Jungle, Interior]"]
+@id=29690
+--------------------------------------------------
+29691 [Monsoon Jungle, Ceiba Glade] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Monsoon Jungle"
+@paths=["Obvious paths: north, southeast, west"]
+@description=["Rising in majestic splendor, a huge ceiba tree towers over the river.  Its trunk is quite wide, anchoring into the ground with low, buttressed roots.  Vibrant white and pink flowers bloom in the canopy, attracting birds and insects with their color and fragrance.  The fresh scent of sea air drifts in from the east, giving evidence of the ocean beyond the jungle."]
+@title=["[Monsoon Jungle, Ceiba Glade]"]
+@id=29691
+--------------------------------------------------
+29692 [Monsoon Jungle, Cliffside] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Monsoon Jungle"
+@paths=["Obvious paths: northwest"]
+@description=["Thick vegetation grows right up to the sheer cliffs that separate the jungle from the ocean.  Rich salt air drifts down from the heights above, and the crashing of waves echoes from the sea beyond.  Several tall durian trees rise up above the jungle, the faintly lingering, faintly sulphuric, scent of their fruit mingling with the coastal brine."]
+@title=["[Monsoon Jungle, Cliffside]"]
+@id=29692
+--------------------------------------------------
+29693 [Monsoon Jungle, Stepped Valley] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Monsoon Jungle"
+@paths=["Obvious paths: west"]
+@description=["A sea of tall grasses wilts in the hot, humid air.  North and south, the jungle rises upon an upland ridge, far too steep and straight to climb.  This valley appears the result of an ancient cirque, likely formed as over time the elements of nature restructured the mountains beyond.  A step-like series of ledges grant access to the northwestern highlands, while the vegetation clears somewhat to the southeast, revealing the shallows of a saltwater river."]
+@title=["[Monsoon Jungle, Stepped Valley]"]
+@id=29693
+--------------------------------------------------
+29694 [Monsoon Jungle, Shallows] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Monsoon Jungle"
+@paths=["Obvious paths: none"]
+@description=["Beds of aquatic grasses contribute to the lush surroundings of these saltwater shallows.  Creatures adapted to the watery habitat pursue the natural order of their lives, resulting in an environment not without hazards for land-based interlopers, even at the water's ebb line.  A steep drop-off in terrain marks a descent into the depths of a separate freshwater river.  Crossing this second watercourse is only possible via a climb up some snarled banyan roots to access higher ground on the opposite shore."]
+@title=["[Monsoon Jungle, Shallows]"]
+@id=29694
+--------------------------------------------------
+29695 [Monsoon Jungle, Highlands] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Monsoon Jungle"
+@paths=["Obvious paths: none"]
+@description=["Raised above the level of the rest of the valley, the plateau is a haven for huge ferns and even a few of the larger jungle trees.  From this vantage point, a section of coastal cliff is plainly visible in the distance.  One fallen tree trunk forms a bridge of sorts to a small ridge in those cliffs.  To the south, the sloping sides of the tableland provide a natural descent to the floor of the cirque below."]
+@title=["[Monsoon Jungle, Highlands]"]
+@id=29695
+--------------------------------------------------
+29696 [Monsoon Jungle, Cliffside] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Monsoon Jungle"
+@paths=["Obvious paths: none"]
+@description=["Rocky terrain replaces the verdant jungle upon this lonely seaside cliff.  Meandering saltwater breezes escalate to dangerous winds, whipping around the point with unbridled ferocity.  Steep and treacherous to the casual climber, the ridge offers no easily accessible route to the higher cliffs above or to the sea beyond.  To the southwest, a fallen tree trunk extends a welcome, if haphazard, connection to a plateau planted squarely within the landscape of the stepped valley."]
+@title=["[Monsoon Jungle, Cliffside]"]
+@id=29696
+--------------------------------------------------
+29699 [Monsoon Jungle, Sandbar] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Monsoon Jungle"
+@paths=["Obvious paths: west, northwest"]
+@description=["At this point, the mist is thinned sufficiently by ocean breezes to allow for a bit of a sea view to become visible, but even so the sight-diffusing vapors float just above the breakers not far from shore.  The eastern bank of the sandbar, as a raised promontory, offers access to the initial depths of the waters below without the separation of any sort of natural shallows."]
+@title=["[Monsoon Jungle, Sandbar]"]
+@id=29699
+--------------------------------------------------
+29700 [Monsoon Jungle, Sandbar] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Monsoon Jungle"
+@paths=["Obvious paths: southeast, south"]
+@description=["The northern shore, the lowest point on the sandbar, accesses the sea via wave-washed shallows.  Coastal waters brim with a multitude of smaller marine life.  Salty breezes coming off the water cool the temperature to a less uncomfortable level than those potentially in the jungle or the valley, despite the density of the island mist.  The unusual dark sand of the entire area is soft and moist underfoot."]
+@title=["[Monsoon Jungle, Sandbar]"]
+@id=29700
+--------------------------------------------------
+29701 [Vornavis Caravansary, Beast Pen] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="Solhaven"
+@paths=["Obvious paths: east, southwest"]
+@description=["A beast pen of rusted wrought iron bars, each set with 6-inch spikes and curving in at the top to end in a spearpoint, stands in the northwest corner of the caravansary."]
+@title=["[Vornavis Caravansary, Beast Pen]"]
+@id=29701
+--------------------------------------------------
+29702 [Marshtown, Shoreline] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the lowlands of Marshtown"
+@paths=["Obvious paths: east, southwest, northwest"]
+@description=["The boardwalk widens at this point to a circular-shaped gathering area, almost a town square.  Many folks loiter about on the docks or on wooden benches, watching the ships and sailors at their work.  To the northwest sits a chandler's shop, the center of most of the commotion in the area.  Supplies are brought in and out of the building almost constantly."]
+@title=["[Marshtown, Shoreline]"]
+@id=29702
+--------------------------------------------------
+29704 [Vornavian Coast, Beached Hulk] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={"5236"=>0.2, "5237"=>0.2}
+@wayto={"5236"=>"go south", "5237"=>"go southwest"}
+@terrain=nil
+@climate=nil
+@location="the Vornavian Coast"
+@paths=["Obvious paths: northeast, south, southwest, west"]
+@description=["The hold continues to the northeast to the bow and southwest to the aft from here.  Light pours in through a burned hole in the deck above about the size of a small wagon.  Cinders and seagull dung have collected on the floor directly under the hole.  An arch opens to the west, and the shattered remains of a broken door hang tenuously on failing hinges to the south."]
+@title=["[Vornavian Coast, Beached Hulk]"]
+@id=29704
+--------------------------------------------------
+29706 [Vornavian Coast, The Hills] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Vornavian Coast"
+@paths=["Obvious paths: southwest"]
+@description=["The path is passable to the southwest, but is blocked to the northeast by a jumble of boulders and shattered stone.  The stone has fallen from the high walls on either side of the path, broken loose by years of erosion.  Lizards climb amongst the fallen rocks, making their way to the top to sun themselves."]
+@title=["[Vornavian Coast, The Hills]"]
+@id=29706
+--------------------------------------------------
+29709 [Basalt Cliff, Approach] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[101, 430, 127, 456]
+@image="ti-feyrie-1599500894.png"
+@timeto={"29165"=>0.2, "12580"=>0.2}
+@wayto={"29165"=>"go north", "12580"=>"climb rockslide"}
+@terrain=nil
+@climate=nil
+@location="the volcanic flats"
+@paths=["Obvious paths: north"]
+@description=["This long barren slope of the volcano rises above the island, surrounded by a deep blue ocean.  The terrain is rocky and devoid of plant life, with the occasional boulder standing sentinel along the arduous climb.  Grooves in the earth from rainwater and lava flows branch out down the slope to meet the vegetation at the edge of the jungle below."]
+@title=["[Basalt Cliff, Approach]"]
+@id=29709
+--------------------------------------------------
+29720 [Ice Plains, Shrine] -- deleted room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="the Ice Plains"
+@paths=["Obvious exits: none"]
+@description=["The room is lit by a dozen torches, and a marble dais is set at the end of the chamber atop a stone altar.  The dais has gold and platinum inlays along the top with veins of silver twisted down the supports of the base.  Several stools are arranged in rows in front of the altar, with a path large enough to walk down the center of the room to the altar.  Behind the dais is a dark alcove with a life-sized statue of Amasalen, servant of Luukos."]
+@title=["[Ice Plains, Shrine]"]
+@id=29720
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29625
+current map size: 29602
+29 rooms with changes found.
+0 new rooms
+23 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
