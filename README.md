@@ -1,6 +1,9 @@
 # mapdb
 **Kaldonis-moderated mapdb reviewed by bona fide map editors.**
 
+## 30 April 2021
+1) All of the new FWI wizard guild, including graphical map
+
 ## 25 April 2021
 0) 53 orphaned rooms around the globe were merged
 1) In particular, the Monsoon Jungle on Mist Harbor

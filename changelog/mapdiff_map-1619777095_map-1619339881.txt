@@ -1,0 +1,627 @@
+diffing old map-1619339881.json to new map-1619777095.json
+--------------------------------------------------
+19359 [Eastern Harbor, Sea Turtle Lane]
+wayto: {"19356"=>"east", "19360"=>"go villa", "19361"=>"southeast"} is now {"19356"=>"east", "19360"=>"go villa", "19361"=>"southeast", "27618"=>"go double door"}
+  added wayto:
+    27618: [Wizard's Guild, Entrance] => "go double door"
+timeto: {"19356"=>0.2, "19360"=>0.2, "19361"=>0.2} is now {"19356"=>0.2, "19360"=>0.2, "19361"=>0.2, "27618"=>0.2}
+  added timeto:
+    27618: [Wizard's Guild, Entrance] => 0.2
+--------------------------------------------------
+27618 [Wizard's Guild, Entrance] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=["wizardguild"]
+@image_coords=[308, 1804, 337, 1833]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"19359"=>0.2, "29601"=>0.2, "29602"=>0.2, "29584"=>0.2, "29592"=>0.2, "29603"=>0.2, "28238"=>0.2}
+@wayto={"19359"=>"go door", "29601"=>"go office", "29602"=>"go door", "29584"=>"northwest", "29592"=>"southwest", "29603"=>"southeast", "28238"=>"northeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northeast, southeast, southwest, northwest"]
+@description=["Four towers rise about this cavernous central chamber.  White marble veined in deep cinnabar, brilliant viridian, soft cobalt, and somber grey makes up their walls.  Far above, the roof is a simple diamond shape set diagonal to the towers.  Flanking the entry door, ornate vases hold a variety of jungle flowers, their scents adding a lush perfume to the grand space.  A nondescript office, on the far side of the chamber, is the only other break in the chamber's walls."]
+@title=["[Wizard's Guild, Entrance]"]
+@id=27618
+--------------------------------------------------
+28238 [Earth Tower, Ground Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[433, 1685, 463, 1713]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29470"=>0.2, "29580"=>0.2, "27618"=>0.2}
+@wayto={"29470"=>"down", "29580"=>"up", "27618"=>"southwest"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southwest, up, down"]
+@description=["Glazed mud-colored clay tiles lay themselves out in a diamond pattern across the circular tower floor.  Cushions sprout like mushrooms around the sawed-off tree trunk that serves as a low table in the center of the chamber, while wooden steps are bolted to the wall, leading to upper levels."]
+@title=["[Earth Tower, Ground Floor]"]
+@id=28238
+--------------------------------------------------
+29470 [Earth Tower, Underground] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[434, 2063, 463, 2092]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"28238"=>0.2, "29605"=>0.2}
+@wayto={"28238"=>"up", "29605"=>"southwest"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southwest, up"]
+@description=["Soft grey marble swirled with dark mocha veins forms the walls of this circular subterranean chamber.  Small and cramped, a persistent dampness permeates the enclosed space, enhancing the earthy scent of the packed dirt floor."]
+@title=["[Earth Tower, Underground]"]
+@id=29470
+--------------------------------------------------
+29580 [Earth Tower, First Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[435, 1171, 464, 1200]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29581"=>0.2, "29583"=>0.2, "28238"=>0.2, "29588"=>0.2, "29608"=>0.2, "29609"=>0.2}
+@wayto={"29581"=>"go western walkway", "29583"=>"go walkway", "28238"=>"down", "29588"=>"up", "29608"=>"northwest", "29609"=>"northeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northeast, northwest, up, down"]
+@description=["Comfortable ruddy leather chairs and sofas are flanked by small side tables surmounted by stacks of light reading materials, some quite worn.  The walls are decorated with tapestries portraying soothing woodland vistas, while the floor is covered in thick, richly colored bear hide rugs.  To the south, stretching across the expanse to the next tower is a walkway, while the western walkway heads off in another direction."]
+@title=["[Earth Tower, First Floor]"]
+@id=29580
+--------------------------------------------------
+29581 [Fire Tower, First Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[187, 1171, 217, 1200]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29582"=>0.2, "29580"=>0.2, "29584"=>0.2, "29586"=>0.2, "29590"=>0.2, "29591"=>0.2}
+@wayto={"29582"=>"go southern walkway", "29580"=>"go eastern walkway", "29584"=>"down", "29586"=>"up", "29590"=>"northwest", "29591"=>"southwest"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southwest, northwest, up, down"]
+@description=["Two arches lead to unevenly sized rooms at the western edges of the chamber.  Between the eastern walkway and the southern walkway connecting to the other towers, a stairwell winds itself upwards and downwards.  Red glaes, volcanic glass, and scorched metal stands as an abstract sculpture in the center of the area."]
+@title=["[Fire Tower, First Floor]"]
+@id=29581
+--------------------------------------------------
+29582 [Air Tower, First Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[187, 1418, 217, 1447]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29581"=>0.2, "29592"=>0.2, "29587"=>0.2, "29594"=>0.2, "29600"=>0.2, "29583"=>0.2}
+@wayto={"29581"=>"go north walkway", "29592"=>"down", "29587"=>"up", "29594"=>"southwest", "29600"=>"southeast", "29583"=>"go east walkway"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southeast, southwest, up, down"]
+@description=["A single large magelight shines on the desks, tables, and chairs of the common room.  To the southwest and southeast, arches lead into common sleeping areas.  On the table nearest the stairs that wind up and down the tower sits a bowl of ripe fruit.  A walkway stretches off to the east, and a perpendicular walkway heads north."]
+@title=["[Air Tower, First Floor]"]
+@id=29582
+--------------------------------------------------
+29583 [Water Tower, First Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[433, 1417, 463, 1447]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29582"=>0.2, "29580"=>0.2, "29603"=>0.2, "29589"=>0.2, "29606"=>0.2, "29607"=>0.2}
+@wayto={"29582"=>"go western walkway", "29580"=>"go northern walkway", "29603"=>"down", "29589"=>"up", "29606"=>"southwest", "29607"=>"southeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southeast, southwest, up, down"]
+@description=["Stairsteps descend and ascend along the inward facing wall of the room, their dark blue wood in contrast to the light blue-green of the walls and marble floors.  The northern walkway and the western walkway lead off to other chambers on the outward side of the tower.  A few overstuffed chairs covered in garish sealife prints sit around a low table inset with a coral and mother-of-pearl pattern on its legs."]
+@title=["[Water Tower, First Floor]"]
+@id=29583
+--------------------------------------------------
+29584 [Fire Tower, Ground Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[186, 1683, 217, 1713]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29585"=>0.2, "29581"=>0.2, "27618"=>0.2}
+@wayto={"29585"=>"down", "29581"=>"up", "27618"=>"southeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southeast, up, down"]
+@description=["Red marble veined in grey and gold tiles the floor of the circular antechamber.  Nestled in the crook of the staircase winding up the side of the tower is a bonfire of silk-covered pillows in shades of orange, red, and yellow."]
+@title=["[Fire Tower, Ground Floor]"]
+@id=29584
+--------------------------------------------------
+29585 [Fire Tower, Underground] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[187, 2063, 217, 2091]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29584"=>0.2, "29605"=>0.2}
+@wayto={"29584"=>"up", "29605"=>"southeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southeast, up"]
+@description=["Soft grey marble swirled with dusty scarlet veins forms the walls of this circular subterranean chamber.  Small and cramped, a persistent dampness permeates the enclosed space, enhancing the earthy scent of the packed dirt floor."]
+@title=["[Fire Tower, Underground]"]
+@id=29585
+--------------------------------------------------
+29586 [Fire Tower, Second Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[187, 685, 217, 715]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29587"=>0.2, "29588"=>0.2, "29581"=>0.2, "29614"=>0.2}
+@wayto={"29587"=>"go southern bridge", "29588"=>"go eastern bridge", "29581"=>"down", "29614"=>"up"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: up, down"]
+@description=["Tapestries in the colors of an autumn forest line the walls, their bottom edges fringed and beaded with amber beads that clink against the red marble floor whenever the air is stirred.  A large copper brazier sits between the doors to other rooms, and copper foil covers the stairway leading up the tower.  Built catty-corner to each other, the eastern bridge and the southern bridge lead to the nearby towers."]
+@title=["[Fire Tower, Second Floor]"]
+@id=29586
+--------------------------------------------------
+29587 [Air Tower, Second Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[187, 933, 217, 961]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29586"=>0.2, "29589"=>0.2, "29582"=>0.2, "29612"=>0.2}
+@wayto={"29586"=>"go northern bridge", "29589"=>"go eastern bridge", "29582"=>"down", "29612"=>"up"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: up, down"]
+@description=["Caged in a net of silver wire, a magelight hangs suspended from the sky blue ceiling.  Soft, warm white paint coats the walls, while the floor is a glittering mosaic of white and grey glaes.  Two overstuffed chairs upholstered in white and grey toile flank a mistwood side table under the one window, which looks down into the great chamber below.  Crossing the expanse to the adjacent towers are the eastern bridge and the northern bridge, each meticulously maintained."]
+@title=["[Air Tower, Second Floor]"]
+@id=29587
+--------------------------------------------------
+29588 [Earth Tower, Second Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[433, 685, 463, 715]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29589"=>0.2, "29586"=>0.2, "29580"=>0.2, "29610"=>0.2}
+@wayto={"29589"=>"go bridge", "29586"=>"go western bridge", "29580"=>"down", "29610"=>"up"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: up, down"]
+@description=["Numerous round tables with place settings for a dozen crowd the chamber, the chairs around them tucked neatly under their tablecloths.  A rustic-looking sideboard with extra linens and flatware stands out of the way of the entrances to the dining room.  Atop each table sits a small potted plant.  The western bridge stands to one side, while behind it another bridge stretches to the south."]
+@title=["[Earth Tower, Second Floor]"]
+@id=29588
+--------------------------------------------------
+29589 [Water Tower, Second Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[434, 933, 464, 963]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29587"=>0.2, "29588"=>0.2, "29583"=>0.2, "29611"=>0.2}
+@wayto={"29587"=>"go bridge", "29588"=>"go northern bridge", "29583"=>"down", "29611"=>"up"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: up, down"]
+@description=["Where the driftwood stairsteps do not intrude on the blue-painted walls, trophies from the sea hang on marvelous iron hooks.  The curiosities extend onto pedestals on the floor and crowd the area in a manner resembling a shipwreck; items tumble at different heights in random abandon.  The northern bridge extends to the next tower, while a similar perpendicular bridge leads west."]
+@title=["[Water Tower, Second Floor]"]
+@id=29589
+--------------------------------------------------
+29590 [Fire Tower, Study Hall] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[124, 1108, 153, 1137]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29581"=>0.2}
+@wayto={"29581"=>"southeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southeast"]
+@description=["Several desks, tables, and chairs are scattered about the area, spaced far enough apart so as to not feel crowded, but close enough to be pushed together or rearranged easily for large groups.  The dark black of their ebonwood surfaces reflects the deep maroon of the enclosing walls."]
+@title=["[Fire Tower, Study Hall]"]
+@id=29590
+--------------------------------------------------
+29591 [Fire Tower, Store Room] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[123, 1234, 153, 1264]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29581"=>0.2}
+@wayto={"29581"=>"northeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northeast"]
+@description=["Cupboards, shelves, and a large dust bin stand somewhat jumbled together around a wooden broom closet in this small space.  Although lit by a single coal-filled brazier set behind the counter, the room is cheery-looking, with several paintings of happy, firelit gatherings adorning the limited wallspace."]
+@title=["[Fire Tower, Store Room]"]
+@id=29591
+--------------------------------------------------
+29592 [Air Tower, Ground Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[187, 1931, 217, 1960]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29593"=>0.2, "29582"=>0.2, "27618"=>0.2}
+@wayto={"29593"=>"down", "29582"=>"up", "27618"=>"northeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northeast, up, down"]
+@description=["Clad in gold-veined white marble, the antechamber to this tower is wreathed in a staircase leading upward.  Soft cushions in cloudy grey are strewn over the expanse of a carpet in the mottled hues of the sky at sunrise."]
+@title=["[Air Tower, Ground Floor]"]
+@id=29592
+--------------------------------------------------
+29593 [Air Tower, Underground] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[187, 2310, 217, 2340]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29592"=>0.2, "29605"=>0.2}
+@wayto={"29592"=>"up", "29605"=>"northeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northeast, up"]
+@description=["Soft grey marble swirled with sparkling white forms the walls of this circular subterranean chamber.  Small and cramped, a persistent dampness permeates the enclosed space, enhancing the earthy scent of the packed dirt floor."]
+@title=["[Air Tower, Underground]"]
+@id=29593
+--------------------------------------------------
+29594 [Workshops Center] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[124, 1481, 153, 1511]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29595"=>0.2, "29596"=>0.2, "29597"=>0.2, "29598"=>0.2, "29599"=>0.2, "29582"=>0.2}
+@wayto={"29595"=>"northwest", "29596"=>"west", "29597"=>"southwest", "29598"=>"southeast", "29599"=>"east", "29582"=>"northeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northeast, east, southeast, southwest, west, northwest"]
+@description=["Five hallways lead to alchemical workshops, their openings resembling the blades of a fan.  Mist grey walls, veined in silver, reflect any ambient light in a sparkling, yet subdued, manner.  A large circular rug inlaid with images of the five elements is the area's only adornment."]
+@title=["[Workshops Center]"]
+@id=29594
+--------------------------------------------------
+29595 [Alchemical, Workshop] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[61, 1417, 90, 1446]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29594"=>0.2}
+@wayto={"29594"=>"southeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southeast"]
+@description=["Purely functional, the room is nearly drab in its unrelieved whiteness.  A single, curved workbench stands against the outer wall of the tower and holds a silver-inlaid pearly lens assembly, a clear glass alembic, a worn stone crucible, and mortars."]
+@title=["[Alchemical, Workshop]"]
+@id=29595
+--------------------------------------------------
+29596 [Alchemical, Workshop] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[61, 1481, 91, 1511]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29594"=>0.2}
+@wayto={"29594"=>"east"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: east"]
+@description=["Purely functional, the room is nearly drab in its unrelieved whiteness.  A single, curved workbench stands against the outer wall of the tower and holds a silver-inlaid pearly lens assembly, a clear glass alembic, a worn stone crucible, and mortars."]
+@title=["[Alchemical, Workshop]"]
+@id=29596
+--------------------------------------------------
+29597 [Alchemical, Workshop] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[61, 1551, 91, 1580]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29594"=>0.2}
+@wayto={"29594"=>"northeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northeast"]
+@description=["Purely functional, the room is nearly drab in its unrelieved whiteness.  A single, curved workbench stands against the outer wall of the tower and holds a silver-inlaid pearly lens assembly, a clear glass alembic, a worn stone crucible, and mortars."]
+@title=["[Alchemical, Workshop]"]
+@id=29597
+--------------------------------------------------
+29598 [Alchemical, Workshop] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[188, 1551, 216, 1579]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29594"=>0.2}
+@wayto={"29594"=>"northwest"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northwest"]
+@description=["Purely functional, the room is nearly drab in its unrelieved whiteness.  A single, curved workbench stands against the outer wall of the tower and holds a silver-inlaid pearly lens assembly, a clear glass alembic, a worn stone crucible, and mortars."]
+@title=["[Alchemical, Workshop]"]
+@id=29598
+--------------------------------------------------
+29599 [Alchemical, Workshop] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[188, 1481, 217, 1510]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29594"=>0.2}
+@wayto={"29594"=>"west"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: west"]
+@description=["Purely functional, the room is nearly drab in its unrelieved whiteness.  A single, curved workbench stands against the outer wall of the tower and holds a silver-inlaid pearly lens assembly, a clear glass alembic, a worn stone crucible, and mortars."]
+@title=["[Alchemical, Workshop]"]
+@id=29599
+--------------------------------------------------
+29600 [Air Tower, Library] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[245, 1479, 273, 1511]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29582"=>0.2}
+@wayto={"29582"=>"northwest"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northwest"]
+@description=["Two lines of bookcases are formless lumps in the shadowy darkness, the aisle between them ending in a window overlooking a courtyard below.  The bookcases are stuffed with books, tomes, scrolls, and pamphlets in various stages of disrepair.", "Two lines of bookcases march the length of the room, the aisle between them ending in a window overlooking a courtyard below.  The bookcases are stuffed with books, tomes, scrolls, and pamphlets in various stages of disrepair, and motes of dust hang listlessly in the air."]
+@title=["[Air Tower, Library]"]
+@id=29600
+--------------------------------------------------
+29601 [Wizard Guild, Qita's Office] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[187, 1803, 219, 1833]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"27618"=>0.2}
+@wayto={"27618"=>"out"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: out"]
+@description=["Functional and sparse, this spacious office is vastly different than the rest of the castle, a testament to its occupant's humble nature.  A solid teak desk sits front and center atop a rattan mat amidst the bare white marble walls, a comfortable-looking chair its only companion.  Several low bookcases filled with tomes and loose scrolls and topped with a standard alembic, mortar, and pestle complete the remainder of the office's furnishings.  A soft light fills the area from no discernable source."]
+@title=["[Wizard Guild, Qita's Office]"]
+@id=29601
+--------------------------------------------------
+29602 [Eastern Harbor, Sea Turtle Lane] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=nil
+@image=nil
+@timeto={}
+@wayto={}
+@terrain=nil
+@climate=nil
+@location="Mist Harbor"
+@paths=["Obvious paths: east, southeast"]
+@description=["Surrounded by flowering trees, the teak and cedar villa sprawls across a petal-strewn lawn along the northern edge of the street.  Wide open windows, illuminated from within, provide a view of the cobalt blue walls of the interior, while the exterior is marked by an elegant painted sign and an arched entry that exudes a welcoming atmosphere.  Circles of lamplight pool upon the cobblestones and cast shadows in the surrounding foliage that partially obscure a vast marble castle."]
+@title=["[Eastern Harbor, Sea Turtle Lane]"]
+@id=29602
+--------------------------------------------------
+29603 [Water Tower, Ground Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[435, 1930, 463, 1960]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29604"=>0.2, "29583"=>0.2, "27618"=>0.2}
+@wayto={"29604"=>"down", "29583"=>"up", "27618"=>"northwest"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northwest, up, down"]
+@description=["Jellyfish-shaped cushions with long tentacles snaking out rest atop a clear glass floor.  Beneath the floor, several varieties of freshwater fish swim obliviously in a giant pond.  The pond itself is kept flowing and aerated by a large contraption that spans from pond to ceiling.  Water wheels and buckets scoop the liquid from the pond and tumble it back out over the sides, creating a slight mist in the air.  Occasionally, a fish flips its way through the buckets to the top and back down to safety below."]
+@title=["[Water Tower, Ground Floor]"]
+@id=29603
+--------------------------------------------------
+29604 [Water Tower, Underground] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[435, 2309, 462, 2339]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29603"=>0.2, "29605"=>0.2}
+@wayto={"29603"=>"up", "29605"=>"northwest"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northwest, up"]
+@description=["Soft grey marble swirled with cobalt blue veins forms the walls of this circular subterranean chamber.  Small and cramped, a persistent dampness permeates the enclosed space, enhancing the earthy scent of the packed dirt floor."]
+@title=["[Water Tower, Underground]"]
+@id=29604
+--------------------------------------------------
+29605 [Wizard's Guild, Meeting Hall] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[308, 2184, 337, 2212]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29585"=>0.2, "29593"=>0.2, "29604"=>0.2, "29470"=>0.2}
+@wayto={"29585"=>"northwest", "29593"=>"southwest", "29604"=>"southeast", "29470"=>"northeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northeast, southeast, southwest, northwest"]
+@description=["Soft grey marble swirled with each elemental color forms the walls of this austere chamber.  Uncomfortable-looking benches march in orderly rows concentrically outward from a raised dais at the back of the room.  Muted globe lights hover high above, providing an adequate amount of light to the area."]
+@title=["[Wizard's Guild, Meeting Hall]"]
+@id=29605
+--------------------------------------------------
+29606 [Water Tower, Guild Shop] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[377, 1481, 406, 1511]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29583"=>0.2}
+@wayto={"29583"=>"northeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northeast"]
+@description=["Near the door, a wirework shelving unit holds a variety of wares.  Wooden bins line the stone walls while a simple granite counter graces the center of the room atop a woven cerulean rug."]
+@title=["[Water Tower, Guild Shop]"]
+@id=29606
+--------------------------------------------------
+29607 [Water Tower, Storage] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[490, 1481, 519, 1511]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29583"=>0.2}
+@wayto={"29583"=>"northwest"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northwest"]
+@description=["Tucked against the blue tile walls of this rather cramped storeroom, a teak shelf rests above a mosaic sapphire-inlaid table holding some stone mortars.  Rivulets of water trickle down the walls from a pair of open windows high up to collect in a meditation pool, giving the eastern wall an oddly sad resemblance to a crying face."]
+@title=["[Water Tower, Storage]"]
+@id=29607
+--------------------------------------------------
+29608 [Earth Tower, Elemental Masters] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[370, 1107, 400, 1136]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29580"=>0.2}
+@wayto={"29580"=>"southeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southeast"]
+@description=["Desks have been crowded together into this small room, each a working area for a master on duty.  Piles of neverending paperwork are stacked high on each desk, some more neatly than others."]
+@title=["[Earth Tower, Elemental Masters]"]
+@id=29608
+--------------------------------------------------
+29609 [Earth Tower, Wood Storage] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[490, 1108, 520, 1137]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29580"=>0.2}
+@wayto={"29580"=>"southwest"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southwest"]
+@description=["Stacks of wood in a variety of hues stand against the wall near some large training cauldrons, all the individual pieces straight and devoid of branching.  A plain woodsman's hatchet rests next to a whetstone atop a small wooden bench nearby."]
+@title=["[Earth Tower, Wood Storage]"]
+@id=29609
+--------------------------------------------------
+29610 [Earth Tower, Third Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[433, 237, 463, 264]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29588"=>0.2, "29613"=>0.2, "29611"=>0.2, "29614"=>0.2}
+@wayto={"29588"=>"down", "29613"=>"southwest", "29611"=>"go south bridge", "29614"=>"go west bridge"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southwest, down"]
+@description=["Abstract tapestries in shades of green and brown line the granite walls of the chamber.  The floor is covered in scattered lion skin rugs.  An odd little shrine, devoid of decoration, stands next to the arched exit to the southwest.  It is composed of a single slab of highly polished basalt.  On either side of the strange shrine are two bridges, each offering a path to reach an adjacent tower."]
+@title=["[Earth Tower, Third Floor]"]
+@id=29610
+--------------------------------------------------
+29611 [Water Tower, Third Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[433, 483, 463, 511]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29589"=>0.2, "29613"=>0.2, "29612"=>0.2, "29610"=>0.2}
+@wayto={"29589"=>"down", "29613"=>"northwest", "29612"=>"go west bridge", "29610"=>"go north bridge"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northwest, down"]
+@description=["Next to the arch to the northwest, a gnomish contraption rests as a shrine.  A yard-wide wheel has been filled with sand and water, while gears keep the wheel in constant back-and-forth motion.  The blue-dyed water and pristine white sand intermingle, creating a miniature storm within the wheel's confines.  Sitting unobtrusively to the north and west are two bridges offering access to the other towers."]
+@title=["[Water Tower, Third Floor]"]
+@id=29611
+--------------------------------------------------
+29612 [Air Tower, Third Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[187, 483, 217, 513]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29611"=>0.2, "29587"=>0.2, "29613"=>0.2, "29614"=>0.2}
+@wayto={"29611"=>"go east bridge", "29587"=>"down", "29613"=>"northeast", "29614"=>"go north bridge"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northeast, down"]
+@description=["Light fog dances through the area, diffusing the light from a colony of small magelights strung along the cloud-painted ceiling.  Arches to the south and west counterbalance the large, open vista of the rooftop to the northeast.  A small marble walkway spans the ten foot distance to the rooftop, sans railings or supports.  One mistwood bridge heads to the east, while a similar bridge leads north."]
+@title=["[Air Tower, Third Floor]"]
+@id=29612
+--------------------------------------------------
+29613 [Wizard's Guild, Workshop] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[310, 360, 340, 388]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29614"=>0.2, "29612"=>0.2, "29611"=>0.2, "29610"=>0.2}
+@wayto={"29614"=>"northwest", "29612"=>"southwest", "29611"=>"southeast", "29610"=>"northeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: northeast, southeast, southwest, northwest"]
+@description=["Four spindly platforms extend from each of the towers out to the floor of this workshop.  A flawless dome of clear crystal covers the area, protecting it from the vagaries of the weather.  Within this nexus, a nervous guild apprentice sits serenely amid four circles of red, white, green, and blue marble set into the floor.  Soft moonlight is enhanced by magical globes above each exit."]
+@title=["[Wizard's Guild, Workshop]"]
+@id=29613
+--------------------------------------------------
+29614 [Fire Tower, Third Floor] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[187, 236, 217, 263]
+@image="ifw-wizard_guild-1619773727.png"
+@timeto={"29612"=>0.2, "29610"=>0.2, "29586"=>0.2, "29613"=>0.2}
+@wayto={"29612"=>"go southern bridge", "29610"=>"go eastern bridge", "29586"=>"down", "29613"=>"southeast"}
+@terrain=nil
+@climate=nil
+@location=false
+@paths=["Obvious exits: southeast, down"]
+@description=["Next to the opening leading southeast, a small shrine covered in gold foil studded with lapis lazuli stands ready to catch the evening moonlight from the fretwork and glass conical rooftop.  The rest of the area's surfaces are covered in a cinnamon-colored paint, while a large red bear rug is centered on the floor.  Understated, yet clearly well-maintained, the eastern bridge and southern bridge offer access to other towers."]
+@title=["[Fire Tower, Third Floor]"]
+@id=29614
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29602
+current map size: 29640
+1 rooms with changes found.
+38 new rooms
+0 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
