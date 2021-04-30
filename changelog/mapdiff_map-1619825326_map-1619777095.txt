@@ -1,0 +1,11 @@
+diffing old map-1619777095.json to new map-1619825326.json
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29640
+current map size: 29640
+0 rooms with changes found.
+0 new rooms
+0 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found

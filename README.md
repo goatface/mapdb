@@ -3,6 +3,7 @@
 
 ## 30 April 2021
 1) All of the new FWI wizard guild, including graphical map
+2) Smuggling Tunnels (WL) and Smuggler's Lair (RR) fixes
 
 ## 25 April 2021
 0) 53 orphaned rooms around the globe were merged
