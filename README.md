@@ -3,6 +3,7 @@
 
 ## 1 May 2021
 1) Tags added to FWI Wizard guild (Tysong)
+2) Rone Academy graphical map and additions
 
 ## 30 April 2021
 1) All of the new FWI wizard guild, including graphical map

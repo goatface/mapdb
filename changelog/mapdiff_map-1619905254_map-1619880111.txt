@@ -1,0 +1,204 @@
+diffing old map-1619880111.json to new map-1619905254.json
+--------------------------------------------------
+8772 [Rone Academy, Brick Walkway]
+timeto: {"8773"=>0.2, "236"=>0.2} is now {"8773"=>10, "236"=>0.2}
+--------------------------------------------------
+15548 [Rone Academy, Students' Lounge]
+wayto: {"15549"=>"go oak door", "15550"=>"go fel door", "15546"=>"south"} is now {"15549"=>"go oak door", "15550"=>"go fel door", "15546"=>"south", "29619"=>"go small door"}
+  added wayto:
+    29619: [Rone Academy, Theatre Backstage] => "go small door"
+timeto: {"15549"=>0.2, "15550"=>0.2, "15546"=>0.2} is now {"15549"=>0.2, "15550"=>0.2, "15546"=>0.2, "29619"=>0.2}
+  added timeto:
+    29619: [Rone Academy, Theatre Backstage] => 0.2
+  image: '' is now 'wl-rone_academy-1619899949.png'
+  image_coords: '' is now '[858, 210, 882, 234]'
+--------------------------------------------------
+16745 [Aradhul Road, Rocky Trail]
+timeto: {"16744"=>0.2, "16746"=>15} is now {"16744"=>0.2, "16746"=>15000}
+--------------------------------------------------
+16746 [Aradhul Road, Rocky Trail]
+timeto: {"16745"=>15, "16747"=>0.2} is now {"16745"=>15000, "16747"=>0.2}
+--------------------------------------------------
+24473 [Rone Academy, Elanthian Library]
+wayto: {"24474"=>"go doorway", "24475"=>"go staircase", "24482"=>"go tables", "24407"=>"south"} is now {"24474"=>"go doorway", "24475"=>"go staircase", "24482"=>"go merchants table", "24407"=>"south", "29615"=>"go enlightenment table", "29616"=>"go professions table", "29617"=>"go wanderer table", "29618"=>"go contemplation table"}
+  added wayto:
+    29615: [Enlightenment Table] => "go enlightenment table"
+    29616: [Professions Table] => "go professions table"
+    29617: [Wanderer's Table] => "go wanderer table"
+    29618: [Contemplation Table] => "go contemplation table"
+timeto: {"24474"=>0.2, "24475"=>0.2, "24482"=>0.2, "24407"=>0.2} is now {"24474"=>0.2, "24475"=>0.2, "24482"=>0.2, "24407"=>0.2, "29615"=>0.2, "29616"=>0.2, "29617"=>0.2, "29618"=>0.2}
+  added timeto:
+    29615: [Enlightenment Table] => 0.2
+    29616: [Professions Table] => 0.2
+    29617: [Wanderer's Table] => 0.2
+    29618: [Contemplation Table] => 0.2
+  added tags:   ["node", "supernode", "table", "roneacademy"]
+  image: '' is now 'wl-rone_academy-1619899949.png'
+  image_coords: '' is now '[657, 211, 681, 235]'
+--------------------------------------------------
+24486 [Rone Academy, Magical Workshop]
+  added tags:   ["workshop"]
+  image: '' is now 'wl-rone_academy-1619899949.png'
+  image_coords: '' is now '[659, 374, 683, 398]'
+--------------------------------------------------
+24489 [Rone Academy, Reception Room]
+wayto: {"24490"=>"go arch"} is now {"24490"=>"go arch", "24484"=>"go doors"}
+  added wayto:
+    24484: [Rone Academy, Cathedral] => "go doors"
+timeto: {"24490"=>0.2} is now {"24490"=>0.2, "24484"=>0.2}
+  added timeto:
+    24484: [Rone Academy, Cathedral] => 0.2
+  image: '' is now 'wl-rone_academy-1619899949.png'
+  image_coords: '' is now '[440, 265, 463, 289]'
+--------------------------------------------------
+24490 [Rone Academy, Sundry Gardens]
+wayto: {"24491"=>"go path"} is now {"24491"=>"go path", "24489"=>"go arch"}
+  added wayto:
+    24489: [Rone Academy, Reception Room] => "go arch"
+timeto: {"24491"=>0.2} is now {"24491"=>0.2, "24489"=>0.2}
+  added timeto:
+    24489: [Rone Academy, Reception Room] => 0.2
+  image: '' is now 'wl-rone_academy-1619899949.png'
+  image_coords: '' is now '[367, 265, 391, 289]'
+--------------------------------------------------
+24491 [Rone Academy, Waterfall]
+wayto: {"24492"=>"go stones"} is now {"24492"=>"go stones", "24490"=>"go path"}
+  added wayto:
+    24490: [Rone Academy, Sundry Gardens] => "go path"
+timeto: {"24492"=>0.2} is now {"24492"=>0.2, "24490"=>0.2}
+  added timeto:
+    24490: [Rone Academy, Sundry Gardens] => 0.2
+  image: '' is now 'wl-rone_academy-1619899949.png'
+  image_coords: '' is now '[367, 320, 391, 343]'
+--------------------------------------------------
+24492 [Rone Academy, Slippery Rocks]
+wayto: {} is now {"29620"=>"lay"}
+  added wayto:
+    29620: [Rone Academy, Waterfall Bed] => "lay"
+timeto: {} is now {"29620"=>5.0}
+  added timeto:
+    29620: [Rone Academy, Waterfall Bed] => 5.0
+  image: '' is now 'wl-rone_academy-1619899949.png'
+  image_coords: '' is now '[367, 375, 390, 398]'
+--------------------------------------------------
+29615 [Enlightenment Table] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[531, 66, 550, 84]
+@image="wl-rone_academy-1619899949.png"
+@timeto={"24473"=>0.2}
+@wayto={"24473"=>"out"}
+@terrain=nil
+@climate=nil
+@location="Rone Academy"
+@paths=["Obvious exits: out"]
+@description=["A scattering of scrolls and quills suggests the oval modwir table is often used as a place of study and contemplation."]
+@title=["[Enlightenment Table]"]
+@id=29615
+--------------------------------------------------
+29616 [Professions Table] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[505, 102, 523, 120]
+@image="wl-rone_academy-1619899949.png"
+@timeto={"24473"=>0.2}
+@wayto={"24473"=>"out"}
+@terrain=nil
+@climate=nil
+@location="Rone Academy"
+@paths=["Obvious exits: out"]
+@description=["Carved along the edges of the long wooden table are symbols for each of the adventuring professions of the lands."]
+@title=["[Professions Table]"]
+@id=29616
+--------------------------------------------------
+29617 [Wanderer's Table] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[458, 102, 478, 121]
+@image="wl-rone_academy-1619899949.png"
+@timeto={"24473"=>0.2}
+@wayto={"24473"=>"out"}
+@terrain=nil
+@climate=nil
+@location="Rone Academy"
+@paths=["Obvious exits: out"]
+@description=["Maps of areas, known and otherwise, have been carved into the surface of this round weathered black maple table over the years.  A large beeswax candle burns from within a large knothole near the center."]
+@title=["[Wanderer's Table]"]
+@id=29617
+--------------------------------------------------
+29618 [Contemplation Table] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[476, 66, 495, 84]
+@image="wl-rone_academy-1619899949.png"
+@timeto={"24473"=>0.2}
+@wayto={"24473"=>"out"}
+@terrain=nil
+@climate=nil
+@location="Rone Academy"
+@paths=["Obvious exits: out"]
+@description=["The round table has been made from a single piece of what must have been a very old modwir tree.  Students have carved a variety of sayings into the wood."]
+@title=["[Contemplation Table]"]
+@id=29618
+--------------------------------------------------
+29619 [Rone Academy, Theatre Backstage] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[968, 211, 992, 235]
+@image="wl-rone_academy-1619899949.png"
+@timeto={"15548"=>0.2}
+@wayto={"15548"=>"go small door"}
+@terrain=nil
+@climate=nil
+@location="Rone Academy"
+@paths=["Obvious exits: none"]
+@description=["The cramped backstage room is dominated by a maze of line and scaffolding.  Dozens of ropes, levers, wheels, and other control devices turn the large but plain area into a miniature labyrinth."]
+@title=["[Rone Academy, Theatre Backstage]"]
+@id=29619
+--------------------------------------------------
+29620 [Rone Academy, Waterfall Bed] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[435, 375, 459, 398]
+@image="wl-rone_academy-1619899949.png"
+@timeto={"29621"=>0.2}
+@wayto={"29621"=>"go rock"}
+@terrain=nil
+@climate=nil
+@location="Rone Academy"
+@paths=["Obvious paths: none"]
+@description=["Under the falls, the water is turbulent and deep, becoming calmer further in.  Lily pads torn from their mooring along the edges of the pool float freely, some still blossoming with pale pink, white, and the rare crimson blooms, often holding the occasional small green frog.  Large enough to hold multiple people comfortably, a sun-warmed rock rises from the depths of the pool."]
+@title=["[Rone Academy, Waterfall Bed]"]
+@id=29620
+--------------------------------------------------
+29621 [Rone Academy, A Large Rock] -- new room
+@unique_loot=nil
+@check_location=nil
+@tags=[]
+@image_coords=[436, 320, 459, 342]
+@image="wl-rone_academy-1619899949.png"
+@timeto={"24490"=>0.2}
+@wayto={"24490"=>"go rock-lined path"}
+@terrain=nil
+@climate=nil
+@location="Rone Academy"
+@paths=["Obvious paths: none"]
+@description=["Bright sunlight streams down onto this large, round rock set amidst the stream.  The rock itself is warm, providing a comfortable and relaxing spot to dry off and watch the waters flow."]
+@title=["[Rone Academy, A Large Rock]"]
+@id=29621
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29640
+current map size: 29647
+10 rooms with changes found.
+7 new rooms
+0 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
