@@ -1,6 +1,9 @@
 # mapdb
 **Kaldonis-moderated mapdb reviewed by bona fide map editors.**
 
+## 1 May 2021
+1) Tags added to FWI Wizard guild (Tysong)
+
 ## 30 April 2021
 1) All of the new FWI wizard guild, including graphical map
 2) Smuggling Tunnels (WL) and Smuggler's Lair (RR) fixes

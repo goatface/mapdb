@@ -1,0 +1,53 @@
+diffing old map-1619825326.json to new map-1619880111.json
+--------------------------------------------------
+16745 [Aradhul Road, Rocky Trail]
+timeto: {"16744"=>0.2, "16746"=>15000} is now {"16744"=>0.2, "16746"=>15}
+--------------------------------------------------
+16746 [Aradhul Road, Rocky Trail]
+timeto: {"16745"=>15000, "16747"=>0.2} is now {"16745"=>15, "16747"=>0.2}
+--------------------------------------------------
+27618 [Wizard's Guild, Entrance]
+  added tags:   ["meta:mapname:Mist Harbor - Wizard Guild", "meta:mapshortname:Wizard Guild (Mist Harbor)", "meta:mapcategory:Isle of the Four Winds", "meta:mapcategory:Guilds"]
+--------------------------------------------------
+29590 [Fire Tower, Study Hall]
+  added tags:   ["wizard alchemy administrator"]
+--------------------------------------------------
+29591 [Fire Tower, Store Room]
+  added tags:   ["wizard alchemy cleaning supplies"]
+--------------------------------------------------
+29595 [Alchemical, Workshop]
+  added tags:   ["wizard alchemy workshop"]
+--------------------------------------------------
+29596 [Alchemical, Workshop]
+  added tags:   ["wizard alchemy workshop"]
+--------------------------------------------------
+29597 [Alchemical, Workshop]
+  added tags:   ["wizard alchemy workshop"]
+--------------------------------------------------
+29598 [Alchemical, Workshop]
+  added tags:   ["wizard alchemy workshop"]
+--------------------------------------------------
+29599 [Alchemical, Workshop]
+  added tags:   ["wizard alchemy workshop"]
+--------------------------------------------------
+29601 [Wizard Guild, Qita's Office]
+  added tags:   ["wizard alchemy guildmaster"]
+--------------------------------------------------
+29607 [Water Tower, Storage]
+  added tags:   ["wizard alchemy shop"]
+--------------------------------------------------
+29608 [Earth Tower, Elemental Masters]
+  added tags:   ["wizard alchemy masters"]
+--------------------------------------------------
+29613 [Wizard's Guild, Workshop]
+  added tags:   ["wizard workshop"]
+--------------------------------------------------
+old map max: 29758
+current map max: 29758
+old map size: 29640
+current map size: 29640
+14 rooms with changes found.
+0 new rooms
+0 deleted rooms
+0 room titles no longer found
+0 room descriptions no longer found
